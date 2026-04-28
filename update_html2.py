@@ -13,7 +13,7 @@ replacement = '''          <div class="youtube-cards-wrapper">
                   <div class="yt-badge yt-badge-blue">English</div>
                   <h3 class="yt-back-title">Physiotherapy for Knee Osteoarthritis</h3>
                   <p class="yt-back-desc">Targeted strengthening exercises to reduce pain and improve mobility &mdash; by Dr. Vijaykumar D, AIIMS Delhi.</p>
-                  <a href="https://www.youtube.com/watch?v=vminONFLauo" target="_blank" class="yt-watch-btn">
+                  <a href="https://www.youtube.com/watch?v=vminONFLauo" class="yt-watch-btn">
                     <ion-icon name="play" style="font-size: 20px;"></ion-icon> Watch on YouTube
                   </a>
                 </div>
@@ -49,7 +49,7 @@ replacement = '''          <div class="youtube-cards-wrapper">
                   <div class="yt-badge yt-badge-blue">हिंदी</div>
                   <h3 class="yt-back-title">घुटने की मजबूती के व्यायाम &mdash; ऑस्टियोआर्थराइटिस</h3>
                   <p class="yt-back-desc">Targeted strengthening exercises to reduce pain and improve mobility &mdash; by Dr. Vijaykumar D, AIIMS Delhi.</p>
-                  <a href="https://www.youtube.com/watch?v=vminONFLauo" target="_blank" class="yt-watch-btn">
+                  <a href="https://www.youtube.com/watch?v=vminONFLauo" class="yt-watch-btn">
                     <ion-icon name="play" style="font-size: 20px;"></ion-icon> Watch on YouTube
                   </a>
                 </div>

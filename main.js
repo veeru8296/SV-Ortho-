@@ -179,7 +179,7 @@ function initFAB() {
     <div class="fab-group" id="fabGroup">
       <button class="fab-btn" id="fabGeneBtn"><i class="fas fa-robot"></i> Ask Gene</button>
       <a class="fab-btn" href="contact.html"><i class="fas fa-phone-alt"></i> Contact Us</a>
-      <a class="fab-btn" href="https://web.docterz.in/#/clinics/5033/book_online_appointment" target="_blank" rel="noopener"><i class="fas fa-calendar-check"></i> Book Appointment</a>
+      <a class="fab-btn" href="https://web.docterz.in/#/clinics/5033/book_online_appointment" rel="noopener"><i class="fas fa-calendar-check"></i> Book Appointment</a>
     </div>
     <div class="gp-overlay" id="gpOverlay"></div>
     <div class="gp-popup" id="gpPopup" role="dialog" aria-label="Gene AI Chat">
@@ -216,8 +216,8 @@ function initFAB() {
     'treatments': 'SV Ortho Care offers <strong>knee &amp; hip replacement</strong>, <strong>robotic surgery</strong>, <strong>arthroscopy</strong>, <strong>spine care</strong>, <strong>sports injury</strong>, and <strong>fracture treatment</strong>. What would you like to know more about?',
     'dr. vijaykumar': 'Dr. Vijaykumar is our senior orthopedic surgeon with <strong>16+ years of experience</strong> in joint replacement and robotic-assisted surgery (AIIMS, Delhi).',
     'doctor': 'Our lead specialist is <strong>Dr. Vijaykumar</strong>, senior orthopedic surgeon specializing in joint replacement and robotic surgery.',
-    'book': 'Booking is easy! <a href="https://web.docterz.in/#/clinics/5033/book_online_appointment" target="_blank" style="color:#007eff">Book online here</a>, or call <strong>+91 8204954498</strong>.',
-    'appointment': 'To book, use our <a href="https://web.docterz.in/#/clinics/5033/book_online_appointment" target="_blank" style="color:#007eff">online portal</a> or call <strong>+91 8204954498</strong>. Available Mon–Sat.',
+    'book': 'Booking is easy! <a href="https://web.docterz.in/#/clinics/5033/book_online_appointment" style="color:#007eff">Book online here</a>, or call <strong>+91 8204954498</strong>.',
+    'appointment': 'To book, use our <a href="https://web.docterz.in/#/clinics/5033/book_online_appointment" style="color:#007eff">online portal</a> or call <strong>+91 8204954498</strong>. Available Mon–Sat.',
     'robotic': 'Robotic knee surgery at SV Ortho Care offers <strong>sub-millimeter precision</strong>, faster recovery, less pain, and better long-term results.',
     'knee pain': 'Knee pain may be caused by <strong>arthritis, ligament tears, or meniscus injuries</strong>. Our specialists can help — <a href="contact.html" style="color:#007eff">book a consultation</a>.',
     'knee': 'We specialise in <strong>knee pain, sports injuries, arthritis</strong>, and <strong>knee replacement surgeries</strong>.',
@@ -227,7 +227,7 @@ function initFAB() {
     'fracture': 'Expert <strong>fracture management</strong> including casting, surgical fixation, and rehabilitation.',
     'arthritis': 'Arthritis treatment ranges from <strong>physiotherapy</strong> to <strong>joint replacement surgery</strong> depending on severity.',
     'contact': 'Reach us at <strong>+91 8204954498</strong> or visit our <a href="contact.html" style="color:#007eff">Contact Page</a>. Open Mon–Sat 9AM–6PM.',
-    'location': 'We are at <strong>962, 12th Main Rd, Indiranagar, Bengaluru 560008</strong>. <a href="https://maps.app.goo.gl/b9SeFGT1ndmxsk2G6" target="_blank" style="color:#007eff">View on Maps →</a>',
+    'location': 'We are at <strong>962, 12th Main Rd, Indiranagar, Bengaluru 560008</strong>. <a href="https://maps.app.goo.gl/b9SeFGT1ndmxsk2G6" style="color:#007eff">View on Maps →</a>',
     'timing': 'Clinic hours: <strong>Mon–Sat 9AM–6PM</strong>, <strong>Sunday 10AM–2PM</strong>.',
     'hello': 'Hello! 👋 I am Gene, SV Ortho Care\'s AI assistant. How can I help you today?',
     'hi': 'Hi! 👋 I am Gene. Ask me anything about SV Ortho Care!',
