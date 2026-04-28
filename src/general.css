@@ -1,0 +1,181 @@
+
+
+/* ── Header placeholder: must be sticky so the injected <header> sticks on every page ── */
+#header-placeholder {
+  position: sticky;
+  top: 0;
+  z-index: 1500;
+}
+
+/* ═══════════════════════════════════════════════════════
+   STICKY FAB WIDGET  (injected by main.js on every page)
+════════════════════════════════════════════════════════ */
+.fab-group{position:fixed;bottom:32px;right:28px;z-index:9000;display:flex;flex-direction:column;gap:10px;width:172px}
+.fab-btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;height:50px;padding:0;border:none;border-radius:50px;cursor:pointer;font-size:13.5px;font-weight:700;font-family:sans-serif;color:#fff;background:linear-gradient(135deg,#002570 0%,#007eff 100%);box-shadow:0 6px 24px rgba(0,37,112,.35);transition:transform .22s,box-shadow .22s;text-decoration:none;box-sizing:border-box}
+.fab-btn:hover{transform:translateY(-3px) scale(1.04);box-shadow:0 10px 32px rgba(0,126,255,.45);color:#fff}
+.fab-btn.fab-active{background:linear-gradient(135deg,#007eff 0%,#002570 100%)}
+/* popup overlay */
+.gp-overlay{display:none;position:fixed;inset:0;z-index:8999}
+.gp-overlay.open{display:block}
+/* popup panel */
+.gp-popup{position:fixed;bottom:215px;right:28px;width:360px;max-height:560px;background:#fff;border-radius:20px;box-shadow:0 16px 56px rgba(0,37,112,.22);border:1px solid rgba(0,37,112,.1);display:none;flex-direction:column;overflow:hidden;z-index:9001}
+.gp-popup.open{display:flex;animation:gpIn .3s cubic-bezier(.22,1,.36,1)}
+@keyframes gpIn{from{opacity:0;transform:translateY(18px) scale(.96)}to{opacity:1;transform:none}}
+/* popup header */
+.gp-hdr{background:linear-gradient(135deg,#002570,#007eff);padding:14px 16px;display:flex;align-items:center;gap:11px;flex-shrink:0}
+.gp-hdr-av{width:40px;height:40px;background:rgba(255,255,255,.15);border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:19px;flex-shrink:0}
+.gp-hdr-info{flex:1}
+.gp-hdr-info h3{color:#fff;font-size:14px;font-weight:700;margin:0 0 2px;font-family:sans-serif}
+.gp-hdr-info p{color:rgba(255,255,255,.7);font-size:11px;margin:0;font-family:sans-serif}
+.gp-x-btn{background:rgba(255,255,255,.15);border:none;color:#fff;width:28px;height:28px;border-radius:50%;cursor:pointer;font-size:15px;display:flex;align-items:center;justify-content:center;transition:background .2s;flex-shrink:0}
+.gp-x-btn:hover{background:rgba(255,255,255,.3)}
+/* messages */
+.gp-msgs{flex:1;overflow-y:auto;padding:14px 12px 8px;display:flex;flex-direction:column;gap:12px;background:#eff5ff;scroll-behavior:smooth;min-height:300px;max-height:380px}
+.gp-msgs::-webkit-scrollbar{width:3px}
+.gp-msgs::-webkit-scrollbar-thumb{background:rgba(0,37,112,.15);border-radius:4px}
+.gp-welcome{text-align:center;padding:8px 4px 4px;animation:gpFade .4s ease}
+.gp-wel-av{width:46px;height:46px;background:linear-gradient(135deg,#007eff,#0044c8);border-radius:14px;display:inline-flex;align-items:center;justify-content:center;font-size:21px;margin-bottom:8px;box-shadow:0 4px 16px rgba(0,126,254,.3)}
+.gp-welcome h4{font-size:14px;font-weight:700;color:#002570;margin:0 0 5px;font-family:sans-serif}
+.gp-welcome p{font-size:12px;color:#3a4a6b;line-height:1.55;margin:0;font-family:sans-serif}
+.gp-chips{display:flex;flex-wrap:wrap;gap:5px;justify-content:center}
+.gp-chip{background:#fff;border:1.5px solid rgba(0,37,112,.12);color:#002570;font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;cursor:pointer;transition:all .18s;font-family:sans-serif}
+.gp-chip:hover{background:#007eff;color:#fff;border-color:#007eff}
+/* bubbles */
+.gp-msg{display:flex;gap:7px;animation:gpFade .25s ease}
+.gp-msg.user{flex-direction:row-reverse}
+.gp-m-av{width:26px;height:26px;border-radius:7px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:12px;margin-top:2px}
+.gp-m-av.ai{background:linear-gradient(135deg,#007eff,#0044c8)}
+.gp-m-av.usr{background:#002570;color:#fff;font-size:9px;font-weight:700}
+.gp-bbl{max-width:80%;padding:8px 12px;border-radius:13px;font-size:12.5px;line-height:1.6;font-family:sans-serif}
+.gp-msg.ai .gp-bbl{background:#fff;color:#0d1b3e;border:1px solid rgba(0,37,112,.1);border-radius:4px 13px 13px 13px}
+.gp-msg.user .gp-bbl{background:#002570;color:#fff;border-radius:13px 4px 13px 13px}
+/* typing */
+.gp-dots{display:flex;gap:4px;align-items:center;padding:2px 0}
+.gp-dots span{width:6px;height:6px;background:#007eff;border-radius:50%;animation:gpDot 1.2s infinite}
+.gp-dots span:nth-child(2){animation-delay:.2s}
+.gp-dots span:nth-child(3){animation-delay:.4s}
+/* input */
+.gp-inp-row{padding:10px 12px;border-top:1px solid rgba(0,37,112,.08);background:#fff;display:flex;gap:8px;align-items:center;flex-shrink:0}
+.gp-inp{flex:1;border:1.5px solid rgba(0,37,112,.12);border-radius:10px;padding:8px 12px;font-size:13px;font-family:sans-serif;color:#0d1b3e;outline:none;transition:border-color .2s;background:#eff5ff}
+.gp-inp:focus{border-color:#007eff}
+.gp-inp::placeholder{color:#7a8ab0}
+.gp-snd-btn{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,#002570,#007eff);border:none;color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:12px;transition:transform .18s,box-shadow .18s;flex-shrink:0}
+.gp-snd-btn:hover{transform:scale(1.08);box-shadow:0 4px 14px rgba(0,126,255,.4)}
+.gp-snd-btn:disabled{opacity:.55;cursor:not-allowed;transform:none}
+@keyframes gpFade{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+@keyframes gpDot{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-5px)}}
+@media(max-width:480px){
+  .gp-popup{width:calc(100vw - 20px);right:10px;bottom:200px}
+  .fab-group{right:14px;bottom:20px;width:150px}
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
+.section {
+  transition:
+    transform 1s,
+    opacity 1s;
+}
+
+/* Outer wrappers */
+.facilities-pictures-wrapper,
+.testimonial-carousel-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* stacks carousel then dots below */
+  align-items: center;
+}
+
+.testimonial-carousel-wrapper {
+  width: 80%;
+}
+
+/* Arrows sit on left/right of the carousel, vertically centred */
+.carousel-arrow {
+  position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: #002570;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    font-size: 28px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .carousel-arrow:hover {
+  background: rgba(255, 255, 255, 1);
+} */
+
+.carousel-prev {
+  left: -52px;
+} /* sits outside the carousel */
+.carousel-next {
+  right: -52px;
+} /* sits outside the carousel */
+
+/* Dots sit below the carousel */
+.carousel-dots {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px; /* space between carousel and dots */
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: background 0.3s;
+  border: none;
+}
+
+.carousel-dot.active {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+/* ------------------------------------------------------------------------------- */
+.youtube-carousel-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.youtube-carousel {
+  overflow: hidden; /* required for carousel */
+  width: 80%;
+  border-radius: 12px;
+}
+
+.youtube-vid-container {
+  flex: 0 0 100%; /* each card takes full width */
+  width: 100%;
+  box-sizing: border-box;
+}

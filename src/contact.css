@@ -1,0 +1,218 @@
+.contact-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contactUs-section {
+  max-width: 100%;
+  height: 360px;
+  position: relative;
+  background-color: #eff5ff;
+  margin-bottom: 0;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.contactUs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  background: url(img/breatcome.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 12px;
+}
+
+.contactUs-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #001f5c;
+  opacity: 0.4;
+  z-index: 1;
+  border-radius: 12px;
+}
+
+.contactUS-content {
+  position: relative;
+  text-align: center;
+  line-height: 1.5;
+  color: #fff;
+  width: 100%;
+  background: transparent;
+  padding: 20px;
+  max-width: 800px;
+  z-index: 2;
+}
+
+.contactUS-content p {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contactUS-content div {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.appointment-section {
+  padding: 100px 0;
+  background-color: #f0f7ff;
+}
+
+.appointment-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  background-image: url('img/appoinment.png');
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+  position: relative;
+  min-height: 600px;
+}
+
+.appointment-left-spacer {
+  flex: 0 0 50%;
+  position: relative;
+}
+
+@keyframes flipHorizontal {
+  0% { transform: scaleX(1); }
+  50% { transform: scaleX(-1); }
+  100% { transform: scaleX(1); }
+}
+
+.mediic-shape-2 {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  z-index: 5;
+}
+
+.mediic-shape-2 img {
+  width: 70px;
+  animation: flipHorizontal 3s infinite ease-in-out;
+}
+
+.appointment-form-wrapper {
+  flex: 0 0 50%;
+  padding: 80px 80px 80px 40px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.appointment-subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #007efe;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.appointment-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #002570;
+  margin-bottom: 40px;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-row input {
+  flex: 1;
+  height: 55px;
+  padding: 0 20px;
+  border: 1px solid #007efe;
+  border-radius: 15px;
+  background-color: #F0F5FF;
+  font-size: 15px;
+  color: #333;
+}
+
+.form-row input:focus,
+.form-row textarea:focus {
+  outline: none;
+  border-color: #005bb5;
+  box-shadow: 0 0 0 3px rgba(0, 126, 254, 0.2);
+}
+
+.form-row textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #007efe;
+  border-radius: 15px;
+  background-color: #F0F5FF;
+  font-size: 15px;
+  color: #333;
+  resize: vertical;
+}
+
+.btn-send-now {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #007efe;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 18px 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+}
+
+.btn-send-now:hover {
+  background-color: #001f5c;
+}
+
+@media (max-width: 768px) {
+  .appointment-container {
+    justify-content: center;
+  }
+  .appointment-left-spacer {
+    display: none;
+  }
+  .appointment-form-wrapper {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .form-row {
+    flex-direction: column;
+  }
+}
+
+.contactUs-map {
+  padding: 56px 0;
+  background: rgb(234, 227, 236);
+}

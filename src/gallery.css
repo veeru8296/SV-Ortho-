@@ -1,0 +1,175 @@
+.gallery-section {
+  background-color: #eff5ff;
+  padding: 64px 0; /* Removing horizontal padding to allow full-width */
+  overflow-x: hidden;
+}
+
+.gallery-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.gallery-label-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 1px solid #c8d9f5;
+  background: white;
+  color: #007efe;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.gallery-label-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #007efe;
+  border-radius: 50%;
+}
+
+.gallery-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #002570;
+  letter-spacing: 1px;
+}
+
+/* Base Infinite Scroller Layout */
+.gallery-infinite-rows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* Centers children horizontally */
+  justify-content: center; /* Centers children vertically (if height is defined) */
+  gap: 16px;
+  width: 80vw;
+  margin: 0 auto;
+  
+}
+
+.infinite-row {
+  width: 80vw;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  border-radius: 12px;
+}
+
+/* Row-specific animation rules */
+.row-track {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+}
+
+/* 40 seconds loop. Play state paused on hover. */
+.row-left .row-track {
+  animation: scroll-left-inf 40s linear infinite;
+}
+
+.row-right .row-track {
+  animation: scroll-right-inf 40s linear infinite;
+}
+
+.infinite-row:hover .row-track {
+  animation-play-state: paused;
+}
+
+/* Keyframes */
+@keyframes scroll-left-inf {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-50% - 8px)); } /* 50% is shifting exactly 1 set of the duplicated contents */
+}
+
+@keyframes scroll-right-inf {
+  0% { transform: translateX(calc(-50% - 8px)); }
+  100% { transform: translateX(0); }
+}
+
+/* Card Styling */
+.gallery-card {
+  position: relative;
+  width: 340px;
+  height: 240px;
+  border-radius: 14px;
+  border: 2px solid #002570;
+  overflow: hidden;
+  flex-shrink: 0;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  cursor: pointer;
+  background: #002570; /* Placeholder color before img load */
+  box-shadow: 0 4px 12px rgba(0, 37, 112, 0.08);
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1);
+  display: block;
+}
+
+/* Premium Hover Interactions */
+/* .gallery-card:hover {
+  transform: scale(1.02);
+  z-index: 10;
+  box-shadow: 0 16px 32px rgba(0, 37, 112, 0.2);
+} */
+
+/* .gallery-card:hover img {
+  transform: scale(1.06); 
+} */
+
+/* Black overlay sliding from bottom to top */
+.gallery-card::before {
+  content: '';
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.65);
+  transition: bottom 0.45s cubic-bezier(0.2, 0.8, 0.2, 1);
+  z-index: 1;
+}
+
+.gallery-card:hover::before {
+  bottom: 0;
+}
+
+/* Dynamic Label Overlay */
+.gallery-label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+  padding: 6px 16px;
+  color: #beccdb;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.5s ease;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.gallery-card:hover .gallery-label {
+  transform: translate(0, -50%);
+  opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .gallery-card {
+    width: 260px;
+    height: 180px;
+  }
+}

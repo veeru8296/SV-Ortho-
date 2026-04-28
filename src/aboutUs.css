@@ -1,0 +1,454 @@
+/* ---------------------------------- */
+/* .aboutUs-img-container {
+  position: relative;
+} */
+/* ------------------------------------ */
+
+/* .aboutUs-carousel-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutUs-slider {
+  min-width: 100vw;
+  min-height: 100vh;
+  position: relative;
+}
+
+.aboutUs-slides {
+  display: flex;
+  width: 300%;
+  min-height: 100%;
+  transition: transform 0.4s ease;
+}
+
+.aboutUs-container-slide {
+  min-width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutUs-pic {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.aboutUs-desc-container {
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(233 155 12);
+  font-weight: 800;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutUs-desc-container h2 {
+  padding-bottom: 24px;
+}
+
+.aboutUs-desc {
+  color: rgba(94 7 94);
+  max-width: 500px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.6;
+  border-radius: 12px;
+  padding: 18px 28px;
+  letter-spacing: 1.5px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 4px 24px rgba(68, 28, 85, 0.13);
+} */
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+.aboutUs-section {
+  overflow: hidden;
+  width: 100%;
+}
+
+.aboutUs-slider {
+  width: 100%;
+  height: calc(100vh - 78px);
+  overflow: hidden;
+  position: relative;
+}
+
+.aboutUs-slides {
+  display: flex;
+  height: calc(100vh - 78px);
+}
+
+.aboutUs-container-slide {
+  width: 100vw;
+  height: calc(100vh - 78px);
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.aboutUs-img-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutUs-img-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background: linear-gradient(to top, rgba(0, 37, 112, 0.9), transparent);
+}
+
+.aboutUs-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.aboutUs-desc-container {
+  text-align: left;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  width: 75%;
+  max-width: none;
+  padding: 0 40px 80px 40px;
+}
+
+.aboutUs-desc-container h2 {
+  padding-bottom: 16px;
+  font-size: 42px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.aboutUs-desc {
+  color: #fff;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.aboutUs-dots {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+  z-index: 10;
+}
+
+.aboutUs-dot {
+  width: 30px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+}
+
+.aboutUs-dot.active {
+  background-color: #fff;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.aboutOrthocare {
+  padding: 64px 0;
+}
+
+
+
+.Orthocare-intro {
+  width: 80%;
+  background-color: rgb(233 155 12);
+  padding: 24px;
+  /* color: rgb(94 7 94); */
+  color: #fff;
+  border-radius: 12px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+}
+
+.Orthocare-features {
+  width: 50%;
+  background-color: #eff5ff;
+  padding: 48px 40px;
+  color: #666;
+  border-radius: 16px;
+  margin: 0 auto;
+  /* Center child content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Orthocare-intro h2,
+.Orthocare-features h2 {
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+
+
+.Orthocare-intro-content,
+.Orthocare-features-content {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  list-style: none;
+}
+
+.ortho-icon {
+  width: 24px;
+  height: 24px;
+}
+/* =========================================================== */
+
+.robotics-points-col-aboutus {
+    width: 100%;
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.robotics-point-aboutus {
+    display: flex;
+    align-items: center;   /* icon & text perfectly on same axis */
+    gap: 18px;
+}
+
+.robotics-point-icon-aboutus {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    background-color: #007efe;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    box-shadow: 0 6px 18px rgba(0, 126, 254, 0.25);
+}
+
+.robotics-point-text-aboutus {
+    display: flex;
+    align-items: center;   /* vertically center text inside its cell */
+    gap: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1a2f5e;
+    line-height: 1.4;
+}
+
+.robotics-point-text-aboutus p {
+    margin: 0;
+}
+
+
+/* =====================================================================
+   OUR SERVICES – CIRCULAR CARDS SECTION
+   ===================================================================== */
+
+.services-circle-section {
+  padding: 90px 60px 80px;
+  background: linear-gradient(160deg, #e8f4ff 0%, #ffffff 60%);
+  overflow: visible;
+}
+
+/* ---- Header ---- */
+.services-circle-header {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.as-dot-circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #007efe;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.services-circle-badge {
+  display: inline-block;
+  background: #fff;
+  color: #007efe;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  padding: 7px 22px;
+  border-radius: 50px;
+  border: 1.5px solid #b3d9ff;
+  margin-bottom: 22px;
+}
+
+.services-circle-title {
+  font-size: clamp(26px, 3.5vw, 44px);
+  font-weight: 800;
+  color: #0a1f5c;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+/* ---- Card Row ---- */
+.services-circle-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  overflow: visible;
+  padding: 40px 0;
+}
+
+/* ---- Individual Circle Card ---- */
+.circle-card {
+  /* Perfect circle using aspect-ratio trick */
+  width: 260px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background-color: #f0f7ff;
+  box-shadow: 0 8px 32px rgba(0, 126, 254, 0.12), 0 2px 8px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+
+  /* Smooth transition for ALL properties */
+  transition: transform 0.4s ease-in-out,
+              background-color 0.4s ease-in-out,
+              box-shadow 0.4s ease-in-out,
+              z-index 0s;
+}
+
+.circle-card:hover {
+  transform: scale(1.48);
+  background-color: #007efe;
+  box-shadow: 0 20px 60px rgba(0, 126, 254, 0.38), 0 8px 24px rgba(0, 0, 0, 0.12);
+  z-index: 10;
+}
+
+/* ---- Inner content wrapper (clips to circle shape) ---- */
+.circle-card-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 28px 24px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* ---- Icon ---- */
+.circle-card-icon {
+  font-size: 46px;
+  color: #007efe;
+  margin-bottom: 14px;
+  flex-shrink: 0;
+  transition: color 0.4s ease-in-out, font-size 0.4s ease-in-out, margin-bottom 0.4s ease-in-out;
+}
+
+.circle-card:hover .circle-card-icon {
+  color: #ffffff;
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+/* ---- Title ---- */
+.circle-card-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0a1f5c;
+  margin: 0 0 0 0;
+  line-height: 1.3;
+  letter-spacing: 0.2px;
+  flex-shrink: 0;
+  transition: color 0.4s ease-in-out, font-size 0.4s ease-in-out, margin-bottom 0.4s ease-in-out;
+}
+
+.circle-card:hover .circle-card-title {
+  color: #ffffff;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+/* ---- Description (hidden by default, fades in on hover) ---- */
+.circle-card-desc {
+  font-size: 10.5px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 1.55;
+  margin: 0;
+  padding: 0 4px;
+  max-height: 0;
+  overflow: hidden;
+
+  /* Fade + slide reveal */
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.4s ease-in-out 0.05s,
+              transform 0.4s ease-in-out 0.05s,
+              max-height 0.4s ease-in-out;
+}
+
+.circle-card:hover .circle-card-desc {
+  opacity: 1;
+  transform: translateY(0);
+  max-height: 200px;
+}
+
+/* ================================================================= */
+
+.aboutUs-dctr{
+  width: 220px;
+  height: 180px;
+}
+
+.cta-banner-aboutus {
+    background: url(../src/img/sbcribe-bg.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+}
+
+.cta-left-aboutus {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: #fff;
+    font-size: 28px;
+}

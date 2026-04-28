@@ -1,0 +1,2995 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "title": "Avascular Necrosis",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "ankle-foot",
+      "slug": "avascular-necrosis",
+      "imagePath": "src/orthopaedic conditions/ankle foot/Avascular Necrosis.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+  "id": 2,
+  "title": "Pain Management",
+  "category": "Orthopaedic Conditions",
+  "bodyPart": "elbow",
+  "slug": "pain-management",
+  "imagePath": "src/orthopaedic conditions/elbow/pain management.jpg",
+  "description": "Pain is an unpleasant sensory and emotional experience associated with actual or potential tissue damage. At SV Ortho Care, we provide comprehensive management for both acute and chronic pain, focusing on early diagnosis and interventional techniques to restore mobility and quality of life.",
+  "symptoms": [
+    "Persistent physical pain affecting daily productivity",
+    "Restricted movement, weakness, and fatigue",
+    "Emotional distress including anxiety and depression",
+    "Sleep disturbances due to chronic discomfort",
+    "Radiating pain (Sciatica/Radiculopathy) or nerve-related tingling"
+  ],
+  "procedure": [
+    {
+      "title": "Multimodal Assessment",
+      "summary": "A multi-disciplinary approach combining physical, emotional, and lifestyle evaluation.",
+      "detail": "We adopt a holistic approach to pain, combining medication, physiotherapy, and counseling. By evaluating the injury, lifestyle factors like obesity or sedentary habits, and psychological impact, we create a faster, safer, and long-lasting relief plan tailored to the individual."
+    },
+    {
+      "title": "Interventional Pain Management",
+      "summary": "Minimally invasive, image-guided procedures to block pain signals at the source.",
+      "detail": "Using precise, image-guided injections or radiofrequency procedures, we target the specific nerves carrying pain signals. These daycare procedures—such as Nerve Blocks or Radiofrequency Ablation (RFA)—require no cuts or scars and offer a quick recovery with reduced reliance on oral painkillers."
+    },
+    {
+      "title": "Advanced Spinal Procedures",
+      "summary": "Targeted relief for back, neck, and disc-related conditions.",
+      "detail": "For conditions like Herniated Discs, Spondylitis, or Sciatica, we utilize advanced techniques including Facet Joint Blocks, Epidural Injections, and Percutaneous Disc Procedures. These interventions aim to reduce inflammation and decompress nerves without traditional open surgery."
+    },
+    {
+      "title": "Neuromodulation & RFA",
+      "summary": "High-tech solutions for chronic and treatment-resistant pain.",
+      "detail": "For long-term control of conditions like Failed Back Surgery Syndrome or Diabetic Neuropathy, we offer Neuromodulation (Spinal or Peripheral Stimulators) and Radiofrequency Ablation. These technologies modulate nerve activity to provide significant, long-term improvement in quality of life."
+    },
+    {
+      "title": "Holistic Rehabilitation",
+      "summary": "Integration of physiotherapy and lifestyle guidance to prevent recurrence.",
+      "detail": "The final phase focuses on preventing minor pain from becoming chronic through regular exercise and ergonomic adjustments. Our structured rehabilitation programs restore joint function and strength, helping patients return to their daily activities with confidence and minimal risk of relapse."
+    }
+  ],
+  "stats": [
+    {
+      "val": "100%",
+      "lbl": "Personalized Care"
+    },
+    {
+      "val": "0",
+      "lbl": "Cuts or Scars"
+    },
+    {
+      "val": "Daycare",
+      "lbl": "Procedure Type"
+    }
+  ]
+},
+    {
+  "id": 3,
+  "title": "Pediatric Orthopaedics",
+  "category": "Orthopaedic Conditions",
+  "bodyPart": "elbow",
+  "slug": "pediatric-orthopaedics",
+  "imagePath": "src/orthopaedic conditions/elbow/pediatric Orthopaedics.jpg",
+  "description": "Pediatric Orthopaedics at SV Ortho Care focuses on treating musculoskeletal issues in children, ranging from congenital deformities like Club Foot to neuromuscular conditions like Cerebral Palsy. We offer a blend of non-surgical gold-standard treatments and advanced reconstructive surgeries to ensure optimal growth and mobility.",
+  "symptoms": [
+    "Muscle tightness or spasticity in limbs",
+    "Inward or downward twisting of the foot (Club Foot)",
+    "Improper formation or dislocation of the hip (DDH)",
+    "Shortening or visible deformity of the limbs",
+    "Progressive muscle weakness or difficulty in movement"
+  ],
+  "procedure": [
+    {
+      "title": "Non-Surgical Correction (Ponseti & Bracing)",
+      "summary": "Utilizing gold-standard casting and bracing for congenital deformities.",
+      "detail": "For conditions like Club Foot (CTEV), we utilize the Ponseti Technique, which involves a series of plaster casts to gradually correct the foot's position. Similarly, early-diagnosed Developmental Dysplasia of the Hip (DDH) is managed with specialized bracing to guide the proper formation of the hip socket without invasive surgery."
+    },
+    {
+      "title": "Neuromuscular Management",
+      "summary": "Combining physiotherapy and medical interventions for conditions like Cerebral Palsy.",
+      "detail": "Treatment for Cerebral Palsy and Muscular Dystrophy focuses on improving flexibility and strength. This includes intensive physiotherapy and the use of Botox injections to reduce muscle spasticity, allowing for better limb movement and delaying the need for surgical intervention."
+    },
+    {
+      "title": "Soft Tissue & Tendon Surgery",
+      "summary": "Correcting muscle contractures and balancing forces through tendon transfers.",
+      "detail": "In cases of Cerebral Palsy or birth injuries like Brachial Plexus Palsy, we perform surgeries to release tight muscles (contracture release) or transfer tendons. These procedures help balance muscle forces around joints, restoring functional movement to the arms, shoulders, and legs."
+    },
+    {
+      "title": "Bony Reconstructive Procedures",
+      "summary": "Stabilizing joints and correcting alignment through Pelvic and Bone Osteotomies.",
+      "detail": "For severe or delayed cases of DDH and foot deformities, reconstructive pelvic osteotomies are performed to rebuild the hip socket. We also perform corrective bone cutting (osteotomies) to stabilize joints, promote healing in conditions like Pseudarthrosis of the Tibia, and improve overall limb alignment."
+    },
+    {
+      "title": "Limb Lengthening & Deformity Correction",
+      "summary": "Using advanced external fixators to gradually correct and lengthen limbs.",
+      "detail": "When limbs are shortened due to trauma or congenital issues, we apply specialized external fixation devices. These fixators allow for the gradual lengthening of bones and the precise correction of complex deformities over time, ensuring the child achieves balanced growth and mobility."
+    }
+  ],
+  "stats": [
+    {
+      "val": "Gold Std",
+      "lbl": "Ponseti Technique"
+    },
+    {
+      "val": "1.5/1000",
+      "lbl": "OBPP Incidence"
+    },
+    {
+      "val": "Advanced",
+      "lbl": "Fixator Tech"
+    }
+  ]
+},
+    {
+  "id": 4,
+  "title": "Sports Medicine & Rehabilitation",
+  "category": "Orthopaedic Conditions",
+  "bodyPart": "elbow",
+  "slug": "sports-medicine-rehabilitation",
+  "imagePath": "src/orthopaedic conditions/elbow/sports medicine $ Rehabilation.jpg",
+  "description": "SV Ortho Care offers world-class sports medicine and advanced rehabilitation services. Under the guidance of Dr. Vijay Kumar D, we provide integrated care using cutting-edge tools like cryotherapy, biomechanical video analysis, and personalized exercise prescriptions to help athletes and patients achieve optimal performance and recovery.",
+  "symptoms": [
+    "Acute sports injuries (sprains, strains, or tears)",
+    "Post-operative stiffness or muscle weakness",
+    "Movement dysfunctions and loss of balance (proprioception)",
+    "Chronic musculoskeletal pain or spinal mobility issues",
+    "Exercise limitations due to hypertension, diabetes, or obesity"
+  ],
+  "procedure": [
+    {
+      "title": "Initial Assessment & Biomechanical Analysis",
+      "summary": "Expert evaluation and video analysis to identify movement dysfunctions.",
+      "detail": "Every recovery journey starts with an integrated assessment. For athletes, we utilize biomechanical video analysis to study performance and identify gait or movement issues. This data allows us to create a tailor-made recovery plan aligned with specific health goals, whether it's returning to professional sports or managing a chronic lifestyle condition."
+    },
+    {
+      "title": "Advanced Modality Therapy",
+      "summary": "Utilizing specialized techniques like Cryotherapy and Dry Needling.",
+      "detail": "We employ advanced tools for immediate pain and inflammation control. This includes our Cryotherapy unit for rapid relief, Dry Needling for muscle trigger point therapy, and specialized Taping Techniques (Rigid, Athletic, and Kinesiology) to provide stability and support during the healing process."
+    },
+    {
+      "title": "Progressive Strength & Stability Training",
+      "summary": "Guided rehabilitation using hydraulic weights, resistance bands, and balance boards.",
+      "detail": "Our facility features a Dedicated Sports Rehabilitation Zone. Patients progress through strength training using hydraulic and free weights, while stability and core strength are improved using Swiss balls, medicine balls, and balance boards. This structured approach ensures a safe transition from injury to full functional strength."
+    },
+    {
+      "title": "Manual Therapy & Corrective Exercise",
+      "summary": "Hands-on joint mobilization and custom-prescribed exercise programs.",
+      "detail": "Our expert therapists perform manual therapies, including joint mobilization, manipulation, and soft tissue release. These are paired with custom exercise prescriptions for specific needs, such as weight loss programs, osteoporosis care, or pediatric physiotherapy to support motor development in children."
+    },
+    {
+      "title": "Performance Enhancement & Post-Op Care",
+      "summary": "Comprehensive long-term recovery and athletic conditioning.",
+      "detail": "The final stage focuses on reaching peak performance. This includes pre- and post-operative physiotherapy for surgical patients and on-field sports medicine support for teams. We utilize treadmills and cross-trainers for guided cardio rehab, ensuring patients regain their endurance and proprioception for a confident return to daily life or competitive sports."
+    }
+  ],
+  "stats": [
+    {
+      "val": "Expert",
+      "lbl": "On-Field Support"
+    },
+    {
+      "val": "Video",
+      "lbl": "Gait Analysis"
+    },
+    {
+      "val": "Pro",
+      "lbl": "Athlete Zone"
+    }
+  ]
+},
+    {
+  "id": 5,
+  "title": "Wrist & Elbow",
+  "category": "Orthopaedic Conditions",
+  "bodyPart": "elbow",
+  "slug": "wrist-elbow",
+  "imagePath": "src/orthopaedic conditions/elbow/wrist and elbow.jpg",
+  "description": "The wrists and elbows are vital for daily tasks, from lifting objects to fine motor movements. At SV Ortho Care, Dr. Vijay Kumar D specializes in treating a wide range of orthopedic conditions and sports injuries affecting these joints, utilizing the latest techniques and personalized recovery plans to restore your active lifestyle.",
+  "symptoms": [
+    "Pain during simple tasks like lifting or gripping",
+    "Discomfort or stiffness when moving the wrist",
+    "Difficulty flexing fingers or rotating the forearm",
+    "Swelling or tenderness around the elbow and wrist joints",
+    "Reduced range of motion impacting work or sports performance"
+  ],
+  "procedure": [
+    {
+      "title": "Diagnostic Evaluation",
+      "summary": "Comprehensive assessment of joint function and injury impact.",
+      "detail": "Our experienced consultants take the time to understand your unique lifestyle needs. We perform clinical examinations and utilize advanced imaging to diagnose the root cause of pain—whether it is a sports injury, repetitive strain, or a chronic condition—ensuring a precise foundation for your treatment plan."
+    },
+    {
+      "title": "Personalized Treatment Planning",
+      "summary": "Tailoring recovery strategies to the patient's unique orthopedic needs.",
+      "detail": "Under the guidance of Dr. Vijay Kumar D, we create customized plans that may include non-invasive therapies, bracing, or specialized injections. We prioritize the latest orthopedic techniques to minimize downtime and address the specific functional requirements of your daily life and family care."
+    },
+    {
+      "title": "Minimally Invasive Interventions",
+      "summary": "Utilizing advanced technology for targeted joint treatment.",
+      "detail": "When conservative measures are insufficient, we employ modern technologies for wrist and elbow care. This includes arthroscopic techniques and targeted interventional procedures that allow for precise repair of ligaments or tendons with minimal tissue disruption and faster recovery."
+    },
+    {
+      "title": "Specialized Rehabilitation",
+      "summary": "Guided physiotherapy focused on restoring fine motor skills and strength.",
+      "detail": "A vital part of the recovery process involves structured physical therapy. Our programs focus on restoring the strength and flexibility of the wrist and elbow, helping patients return to sports and professional work without the fear of re-injury or chronic discomfort."
+    },
+    {
+      "title": "Long-term Joint Care & Maintenance",
+      "summary": "Education and strategies to prevent future orthopedic injuries.",
+      "detail": "We are committed to helping you and your family maintain a pain-free life. This final phase includes education on ergonomic adjustments and strengthening exercises designed to protect the joints during repetitive tasks, ensuring long-term mobility and health."
+    }
+  ],
+  "stats": [
+    {
+      "val": "Expert",
+      "lbl": "Sports Injury Care"
+    },
+    {
+      "val": "Latest",
+      "lbl": "Medical Tech"
+    },
+    {
+      "val": "Custom",
+      "lbl": "Recovery Plans"
+    }
+  ]
+},
+    {
+  "id": 6,
+  "title": "Arthritis",
+  "category": "Orthopaedic Conditions",
+  "bodyPart": "hip",
+  "slug": "arthritis",
+  "imagePath": "src/orthopaedic conditions/hip/Arthritis.jpg",
+  "description": "Arthritis, particularly Rheumatoid Arthritis (RA), is a systemic autoimmune disease that attacks the joint lining (synovium), leading to inflammation and potential joint destruction. Under the expertise of Dr. Vijay Kumar D, SV Ortho Care provides comprehensive management for RA, Gout, and Seronegative Arthropathies to prevent deformity and preserve long-term mobility.",
+  "symptoms": [
+    "Persistent joint pain, especially in small joints",
+    "Early morning stiffness lasting more than 30 minutes",
+    "Joint swelling, warmth, and redness",
+    "Formation of Rheumatoid nodules on forearms or tendons",
+    "Systemic symptoms affecting the heart or lungs in advanced cases"
+  ],
+  "procedure": [
+    {
+      "title": "Diagnostic Screening & Imaging",
+      "summary": "Utilizing clinical markers and radiology for accurate arthritis classification.",
+      "detail": "Diagnosis is achieved through a combination of clinical symptoms and advanced imaging. We look for radiological signs such as joint space narrowing and bone cysts. Blood tests for Rheumatoid Factor (RF), Anti-CCP antibodies, and Uric Acid levels (especially for Gout) are essential to differentiate between RA and Seronegative conditions like Psoriatic Arthritis or Ankylosing Spondylitis."
+    },
+    {
+      "title": "Medical Management (DMARDs)",
+      "summary": "First-line pharmaceutical intervention to slow disease progression.",
+      "detail": "Our primary approach involves Disease-Modifying Anti-Rheumatic Drugs (DMARDs) and Glucocorticoids to reduce acute inflammation rapidly. These medications are crucial for slowing the underlying disease process, protecting the joints from permanent damage and deformity before they progress to a debilitating stage."
+    },
+    {
+      "title": "Advanced Biologic Therapy",
+      "summary": "Targeted immune response treatment for resistant arthritis cases.",
+      "detail": "For patients who do not respond to traditional DMARDs, we offer Biologic DMARDs such as Anakinra, Rituximab, and Abatacept. These advanced therapies target specific pathways in the immune system to stop the autoimmune attack on the joints, providing relief for aggressive or resistant forms of the disease."
+    },
+    {
+      "title": "Arthroscopic Synovectomy",
+      "summary": "Minimally invasive removal of inflamed synovial tissue.",
+      "detail": "When joint inflammation is severe but the joint structure is still intact, we perform Arthroscopic Synovectomy. This minimally invasive surgical procedure removes the diseased joint lining (synovium) in large joints like the knee, significantly reducing pain and preventing further cartilage and bone destruction."
+    },
+    {
+      "title": "Joint Replacement & Reconstruction",
+      "summary": "Restoring mobility in cases of advanced joint destruction.",
+      "detail": "In cases of end-stage arthritis where joint destruction is extensive, total joint replacement (Hip, Knee, or Shoulder) is performed. This surgical intervention removes the damaged bone and cartilage, replacing them with state-of-the-art prosthetic components to eliminate chronic pain and restore full functional mobility."
+    }
+  ],
+  "stats": [
+    {
+      "val": "0.5\u20131%",
+      "lbl": "Global RA Prevalence"
+    },
+    {
+      "val": "3:1",
+      "lbl": "Female to Male Ratio"
+    },
+    {
+      "val": "HLA-B27",
+      "lbl": "Genetic Marker"
+    }
+  ]
+},
+    {
+  "id": 7,
+  "title": "Foot and Ankle",
+  "category": "Orthopaedic Conditions",
+  "bodyPart": "hip",
+  "slug": "foot-and-ankle",
+  "imagePath": "src/orthopaedic conditions/hip/foot and ankle.jpg",
+  "description": "SV Ortho Care's Specialized Foot & Ankle Surgery Department, led by Dr. Vijay Kumar D, is dedicated to the diagnosis and recovery of complex foot conditions. We offer a patient-centered approach ranging from conservative orthotic treatments to advanced reconstructive and revision surgeries to ensure long-term mobility.",
+  "symptoms": [
+    "Painful structural deformities like bunions or flat feet",
+    "Chronic heel pain or Achilles tendon discomfort",
+    "Restricted joint movement due to osteoarthritis",
+    "Nerve-related tingling or pain (Morton’s Neuroma)",
+    "Instability following ligament injuries or fractures"
+  ],
+  "procedure": [
+    {
+      "title": "Diagnostic & Structural Assessment",
+      "summary": "Detailed evaluation of foot alignment and mechanical deformities.",
+      "detail": "We begin with a comprehensive analysis of the foot's structure to address conditions like Hallux Valgus (bunions), Hammer Toe, and Pes Planovalgus (flat foot). This phase involves clinical assessment and imaging to decide between conservative management, such as custom orthotics and specialized footwear, or surgical bone realignment (osteotomy)."
+    },
+    {
+      "title": "Conservative & Infiltration Therapy",
+      "summary": "Non-surgical interventions for pain and inflammation management.",
+      "detail": "Before considering surgery, we explore evidence-based conservative options including shockwave therapy, physiotherapy, and ergotherapy. We also provide targeted infiltration therapy and joint injections (visco-supplementation) to reduce inflammation and provide relief for conditions like plantar fasciitis and early-stage osteoarthritis."
+    },
+    {
+      "title": "Soft Tissue & Tendon Reconstruction",
+      "summary": "Repairing and strengthening degenerative or ruptured tendons.",
+      "detail": "For patients with degenerative tendon disorders or acute injuries like a ruptured Achilles tendon, we perform advanced reconstructive procedures. This includes tenosynovectomy to remove inflamed sheaths or tendon suturing to restore the foot's power and stability, ensuring a return to an active lifestyle."
+    },
+    {
+      "title": "Advanced Joint & Bone Surgery",
+      "summary": "Surgical solutions for arthritis and complex fractures.",
+      "detail": "When joint destruction is advanced, our surgeons perform arthroscopic cleaning, joint fusion (arthrodesis), or resection arthroplasty. We also specialize in fracture management (osteosyntheses) and nerve decompression for Tarsal Tunnel Syndrome, utilizing minimally invasive techniques wherever possible to speed up recovery."
+    },
+    {
+      "title": "Revision Surgery & Post-Trauma Rehab",
+      "summary": "Corrective interventions for prior procedures and specialized recovery.",
+      "detail": "We offer expert second opinions and revision interventions for patients unsatisfied with previous foot or ankle surgeries. The recovery process is supported by a robust post-trauma rehabilitation program, combining physiotherapy and functional training to ensure the highest quality outcome and restored mobility."
+    }
+  ],
+  "stats": [
+    {
+      "val": "Expert",
+      "lbl": "Revision Surgery"
+    },
+    {
+      "val": "Custom",
+      "lbl": "Orthotic Care"
+    },
+    {
+      "val": "Advanced",
+      "lbl": "Trauma Rehab"
+    }
+  ]
+},
+    {
+  "id": 8,
+  "title": "Robotic Hip Replacement",
+  "category": "Orthopaedic Conditions",
+  "bodyPart": "hip",
+  "slug": "robotic-hip-replacement",
+  "imagePath": "src/orthopaedic conditions/hip/robotic hip replacement.jpg",
+  "description": "Robotic Hip Replacement is a state-of-the-art surgical procedure that utilizes advanced robotic-arm technology to assist surgeons in performing total hip arthroplasty with unparalleled precision. This technology allows for personalized pre-operative planning and highly accurate implant positioning, leading to better joint stability, more natural movement, and a faster return to daily activities.",
+  "symptoms": [
+    "Severe hip pain that limits daily activities like walking or bending",
+    "Persistent pain even while resting or during the night",
+    "Stiffness in the hip joint that restricts the range of motion",
+    "Inadequate relief from non-surgical treatments like physical therapy or medication",
+    "Difficulty performing simple tasks like putting on shoes or socks"
+  ],
+  "procedure": [
+    {
+      "title": "CT-Based 3D Modeling",
+      "summary": "Creating a personalized 3D virtual map of the patient's unique hip anatomy.",
+      "detail": "Before the surgery, a high-resolution CT scan of the patient's hip is performed. This data is loaded into the robotic system software to create a 3D virtual model of the unique bone structure. The surgeon uses this model to pre-plan the exact size, orientation, and alignment of the implant components, ensuring a personalized surgical blueprint long before entering the operating room."
+    },
+    {
+      "title": "Intra-Operative Registration",
+      "summary": "Syncing the digital 3D plan with the patient's actual anatomy during surgery.",
+      "detail": "Once the surgery begins, the surgeon uses a specialized probe to map specific points on the patient's hip bone. This registration process syncs the physical anatomy with the pre-operative 3D model. This ensures that the robotic arm is perfectly calibrated to the patient's real-time position, allowing for sub-millimeter accuracy throughout the procedure."
+    },
+    {
+      "title": "Robotic-Assisted Bone Preparation",
+      "summary": "Precision sculpting of the bone guided by robotic haptic feedback.",
+      "detail": "The surgeon guides the robotic arm to remove damaged bone and cartilage. The system uses 'haptic' technology, creating virtual boundaries that prevent the surgical tools from moving outside the pre-planned area. This protects healthy bone and soft tissue, ensuring that only the necessary amount of bone is removed for a perfect implant fit."
+    },
+    {
+      "title": "Precision Implant Placement",
+      "summary": "Achieving optimal component alignment for improved joint longevity.",
+      "detail": "Using the robotic arm, the surgeon places the prosthetic components with extreme precision. The system provides real-time data on leg length and joint tension, ensuring the new hip is perfectly balanced. This accuracy is critical for reducing the risk of dislocation, minimizing wear and tear on the implant, and providing a more natural-feeling joint."
+    },
+    {
+      "title": "Rapid Recovery & Rehabilitation",
+      "summary": "Accelerated healing and return to function due to tissue preservation.",
+      "detail": "Because the robotic approach is more precise and bone-sparing, patients often experience less post-operative pain and blood loss. Rehabilitation starts almost immediately, with many patients walking the same day. The structured physical therapy program focuses on gait training and strengthening, helping patients return to their active lifestyles sooner than with traditional methods."
+    }
+  ],
+  "stats": [
+    {
+      "val": "< 1mm",
+      "lbl": "Placement Accuracy"
+    },
+    {
+      "val": "3D",
+      "lbl": "Personalized Map"
+    },
+    {
+      "val": "Fast",
+      "lbl": "Recovery Time"
+    }
+  ]
+},
+    {
+  "id": 9,
+  "title": "ACL Tear",
+  "category": "Orthopaedic Conditions",
+  "bodyPart": "knee",
+  "slug": "acl-tear",
+  "imagePath": "src/orthopaedic conditions/knee/acl-tear.jpg",
+  "description": "The Anterior Cruciate Ligament (ACL) is a primary stabilizer of the knee joint, essential for twisting and pivoting movements. Injuries often result from sports activities or accidents, leading to a sensation of the knee 'giving way.' At SV Ortho Care, we focus on restoring stability to prevent secondary damage to the meniscus and cartilage.",
+  "symptoms": [
+    "Knee pain and swelling immediately following an injury",
+    "A sensation of the knee being unstable or 'giving way'",
+    "Difficulty walking on slippery or uneven ground",
+    "Reduced range of motion in the knee joint",
+    "Feeling of joint shifting during twisting or pivoting movements"
+  ],
+  "procedure": [
+    {
+      "title": "Diagnostic Evaluation & Conservative Care",
+      "summary": "Assessment of knee stability and initial non-surgical management.",
+      "detail": "Our specialists perform a thorough evaluation to determine the extent of the ACL tear. Initial treatment may involve rehabilitation exercises designed to strengthen the surrounding muscles to improve stability. In some cases, specialized knee braces are prescribed to provide external support and prevent the knee from slipping during daily activities."
+    },
+    {
+      "title": "Arthroscopic ACL Repair",
+      "summary": "A minimally invasive procedure to fix the original torn ligament.",
+      "detail": "For specific types of tears where the tissue is healthy enough to be preserved, we perform Arthroscopic ACL Repair. This minimally invasive technique uses small incisions and a camera to reattach the torn ligament to the bone, allowing for faster recovery and the preservation of the patient's natural anatomy."
+    },
+    {
+      "title": "Arthroscopic ACL Reconstruction",
+      "summary": "Replacing the torn ligament with a high-quality tissue graft.",
+      "detail": "When the ACL is completely ruptured, reconstruction is the gold standard. We replace the torn ligament with a graft (typically from the patient's own hamstring or patellar tendon). This new ligament is precisely positioned to mimic the original ACL's function, restoring full stability and confidence to the knee joint."
+    },
+    {
+      "title": "Augmented ALL Reconstruction",
+      "summary": "Additional ligament reinforcement for enhanced rotational stability.",
+      "detail": "In cases of high-grade instability or for athletes returning to pivoting sports, we perform an Augmented Anterolateral Ligament (ALL) Reconstruction. By repairing or reinforcing this secondary ligament alongside the ACL, we provide extra protection against rotational forces and significantly reduce the risk of a graft re-tear."
+    },
+    {
+      "title": "Alignment Correction & Rehabilitation",
+      "summary": "Structural adjustment and professional physiotherapy for long-term health.",
+      "detail": "If the injury is complicated by poor limb alignment, we may perform an Alignment Correction Osteotomy. Post-surgery, every patient undergoes a structured rehabilitation program at SV Ortho Care to restore joint mobility and strength, ensuring a safe and effective return to sports and daily productivity."
+    }
+  ],
+  "stats": [
+    {
+      "val": "Pivot",
+      "lbl": "Stability Restored"
+    },
+    {
+      "val": "Keyhole",
+      "lbl": "Arthroscopic Tech"
+    },
+    {
+      "val": "Low",
+      "lbl": "Re-injury Risk"
+    }
+  ]
+},
+    {
+  "id": 10,
+  "title": "Cartilage Defect",
+  "category": "Orthopaedic Conditions",
+  "bodyPart": "knee",
+  "slug": "cartilage-defect",
+  "imagePath": "src/orthopaedic conditions/knee/Cartilage Defect.jpg",
+  "description": "Cartilage is the smooth, friction-free tissue that covers bone ends, but it has a very limited ability to heal itself. At SV Ortho Care, Dr. Vijay Kumar D utilizes joint preservation biotechnology and advanced cell therapies to repair cartilage defects, preventing the progression to severe arthritis and avoiding the need for total joint replacement.",
+  "symptoms": [
+    "Persistent joint pain, even at rest",
+    "Swelling and stiffness around the joint",
+    "Grinding or clicking noises (crepitus) during movement",
+    "Limited range of motion and difficulty with stairs",
+    "Sensation of the joint 'locking' or catching"
+  ],
+  "procedure": [
+    {
+      "title": "Clinical Evaluation & Staging",
+      "summary": "Assessing the severity of cartilage loss from softening to Stage IV defects.",
+      "detail": "We begin by evaluating the depth of the defect, ranging from mild softening (Stage I) to complete cartilage loss (Stage IV). Using advanced imaging, we determine if the underlying bone is involved (osteochondral defect). This staging is critical for choosing between conservative rehabilitation, arthroscopic drilling, or advanced cell-based regenerative therapies."
+    },
+    {
+      "title": "Cartilage Biopsy (Regrow Therapy)",
+      "summary": "Extraction of a small sample of healthy cartilage for cell cultivation.",
+      "detail": "In advanced Regrow Cartilage Cell Therapy, a small, healthy cartilage sample is harvested from a non-weight-bearing area of the joint. This is a minimally invasive procedure. The sample is then sent to a specialized laboratory where the chondrocytes (cartilage cells) are isolated and multiplied over several weeks into millions of potent, healthy cells."
+    },
+    {
+      "title": "Autologous Chondrocyte Implantation",
+      "summary": "Implanting the laboratory-grown cells into the damaged joint area.",
+      "detail": "The expanded 'autologous' (your own) cartilage cells are surgically implanted back into the defect site. These cells act as a biological seed, promoting the growth of new, natural hyaline-like cartilage. This technique is superior to traditional methods as it restores the natural smooth surface of the joint rather than filling it with weaker fibrous tissue."
+    },
+    {
+      "title": "Osteochondral Transfer & Fixation",
+      "summary": "Transplanting healthy cartilage and bone to repair deep defects.",
+      "detail": "For deeper injuries affecting both bone and cartilage, we perform osteochondral transfers or arthroscopic fixation. This may involve moving healthy bone/cartilage 'plugs' into the damaged area or using specialized techniques like radiofrequency co-ablation and micro-drilling to stimulate the body's natural healing response in the joint surface."
+    },
+    {
+      "title": "Joint Preservation Rehabilitation",
+      "summary": "Tailored physiotherapy to protect the newly growing cartilage.",
+      "detail": "Post-procedure recovery is vital for successful cell integration. We design personalized rehabilitation programs that focus on controlled motion without excessive weight-bearing initially. This allows the new cartilage to mature and harden, eventually restoring full, pain-free joint function and significantly improving the patient's quality of life."
+    }
+  ],
+  "stats": [
+    {
+      "val": "600+",
+      "lbl": "Patients Treated"
+    },
+    {
+      "val": "4",
+      "lbl": "Damage Stages"
+    },
+    {
+      "val": "100%",
+      "lbl": "Autologous Cells"
+    }
+  ]
+},
+    {
+  "id": 11,
+  "title": "GCMD",
+  "category": "Orthopaedic Conditions",
+  "bodyPart": "knee",
+  "slug": "gcmd",
+  "imagePath": "src/orthopaedic conditions/knee/GCMD.jpg",
+  "description": "Ganglion Cyst and Mucoid Degeneration (GCMD) involves the development of jelly-like fluid swellings or tissue changes within the knee joint, specifically affecting the Anterior Cruciate Ligament (ACL). While often asymptomatic on MRI, it can cause significant pain and restricted movement, which Dr. Vijay Kumar D treats using advanced arthroscopic techniques.",
+  "symptoms": [
+    "Difficulty fully bending or straightening the knee",
+    "Pain or discomfort while standing for long periods",
+    "Discomfort in the knee joint during sleep",
+    "Internal knee swelling often visible on MRI scans",
+    "Mechanical blockage or stiffness in the joint"
+  ],
+  "procedure": [
+    {
+      "title": "MRI Diagnosis & Evaluation",
+      "summary": "Identifying mucoid changes or cysts within the ACL and meniscus.",
+      "detail": "Since GCMD is primarily an internal structural change, a high-resolution MRI is essential for diagnosis. We evaluate the degree of mucoid degeneration—where the ACL fibers thicken and swell—and identify any ganglion cysts. Dr. Vijay Kumar D assesses whether these findings correlate with your clinical symptoms before recommending a targeted intervention."
+    },
+    {
+      "title": "Arthroscopic Debridement",
+      "summary": "Minimally invasive removal of degenerated ACL tissue.",
+      "detail": "Through tiny keyhole incisions, we perform a thorough debridement of the degenerated ACL tissue. This 'cleaning' process removes the jelly-like mucoid material and any associated ganglion cysts. By decompressing the ligament, we immediately relieve the internal pressure, significantly reducing pain and restoring the knee's range of motion."
+    },
+    {
+      "title": "Arthroscopic Bony Notchplasty",
+      "summary": "Reshaping the femoral notch to reduce mechanical irritation.",
+      "detail": "In many GCMD cases, the swollen ACL becomes pinched within the narrow bony tunnel of the knee (the femoral notch). During the arthroscopic procedure, we perform a 'notchplasty' to slightly widen this space. This reshaping prevents the bone from irritating the thickened ligament, ensuring smoother movement and preventing recurrence of inflammation."
+    },
+    {
+      "title": "Arthroscopic ACL Reconstruction",
+      "summary": "Replacing the ligament in cases of severe degeneration.",
+      "detail": "If the mucoid degeneration has severely compromised the structural integrity of the ACL, a simple cleaning may not be sufficient. In such instances, we perform a full ACL reconstruction using a high-quality graft. This replaces the diseased tissue with a healthy ligament, providing a permanent solution for both the degeneration and joint instability."
+    },
+    {
+      "title": "Post-Surgical Mobilization",
+      "summary": "Physiotherapy focused on restoring full range of motion.",
+      "detail": "Following GCMD treatment, our rehabilitation team focuses on early mobilization to prevent joint stiffness. Personalized exercises are designed to maintain the space created during surgery and strengthen the surrounding muscles. This ensures the patient can return to daily activities, standing, and sleeping without the prior discomfort."
+    }
+  ],
+  "stats": [
+    {
+      "val": "ACL",
+      "lbl": "Primary Area"
+    },
+    {
+      "val": "Keyhole",
+      "lbl": "Surgical Mode"
+    },
+    {
+      "val": "MRI",
+      "lbl": "Diagnosis Tool"
+    }
+  ]
+},
+    {
+  "id": 12,
+  "title": "Knee Arthroscopy",
+  "category": "Orthopaedic Conditions",
+  "bodyPart": "knee",
+  "slug": "knee-arthroscopy",
+  "imagePath": "src/specific surgical treatments/Sports surgery/knee anthroscopy.jpg",
+  "description": "Knee Arthroscopy is a minimally invasive 'key-hole' surgical procedure used to diagnose and treat joint problems. By using a tiny camera called an arthroscope, Dr. Vijay Kumar D can visualize the internal structures of the knee with high precision, allowing for effective treatment with smaller incisions, less pain, and faster recovery times.",
+  "symptoms": [
+    "Persistent knee pain unresponsive to conservative treatment",
+    "Swelling and inflammation within the joint",
+    "Sensation of the knee catching, clicking, or locking",
+    "Feeling of joint instability or 'giving way'",
+    "Unclear diagnosis after X-rays or MRI scans"
+  ],
+  "procedure": [
+    {
+      "title": "Diagnostic Visualization",
+      "summary": "Using a pencil-sized arthroscope to examine the internal joint structures.",
+      "detail": "A small incision is made to insert the arthroscope, which is equipped with a tiny lens and fiber-optic light. This illuminates the inside of the knee, sending real-time, high-definition images to a monitor. This allows the surgeon to examine cartilage, ligaments, and tendons more accurately than traditional open surgery or imaging alone."
+    },
+    {
+      "title": "Minimally Invasive Access",
+      "summary": "Replacing large traditional incisions with small, 'key-hole' portals.",
+      "detail": "Unlike traditional surgery that requires a large opening, arthroscopy utilizes tiny portals. This approach significantly reduces trauma to the surrounding muscles and soft tissues. These small incisions lead to minimal scarring, decreased post-operative pain, and a lower risk of infection for the patient."
+    },
+    {
+      "title": "Real-Time Surgical Treatment",
+      "summary": "Addressing identified joint issues during the diagnostic procedure.",
+      "detail": "If a problem such as a torn meniscus or damaged cartilage is identified, the surgeon can insert miniature surgical instruments through additional small incisions. This allows the problem to be treated immediately under direct visualization from the arthroscope, combining diagnosis and treatment into a single, efficient session."
+    },
+    {
+      "title": "Precision Mapping",
+      "summary": "Definitive diagnosis through direct observation of joint tissue.",
+      "detail": "Arthroscopy provides a definitive diagnosis by allowing the surgeon to physically see the condition of the joint. This often provides more accurate information regarding the health of the synovium and cartilage than non-invasive imaging (MRI/CT), ensuring that the treatment plan is perfectly tailored to the actual damage found."
+    },
+    {
+      "title": "Accelerated Recovery",
+      "summary": "Rapid return to daily activities and sports due to reduced tissue trauma.",
+      "detail": "Because the procedure is minimally invasive, the recovery timeline is greatly accelerated. Patients typically experience less stiffness and can often return to work or sports much sooner than with traditional open surgery. A structured rehabilitation program follows to help restore full joint function and strength quickly."
+    }
+  ],
+  "stats": [
+    {
+      "val": "High",
+      "lbl": "Diagnostic Accuracy"
+    },
+    {
+      "val": "Minimal",
+      "lbl": "Post-Op Scarring"
+    },
+    {
+      "val": "Fast",
+      "lbl": "Return to Sports"
+    }
+  ]
+},
+    {
+  "id": 13,
+  "title": "Knee Pain",
+  "category": "Orthopaedic Conditions",
+  "bodyPart": "knee",
+  "slug": "knee-pain",
+  "imagePath": "src/orthopaedic conditions/knee/Knee Pain.jpg",
+  "description": "Understanding knee symptoms early is vital for effective treatment. At SV Ortho Care, we categorize knee pain by severity—ranging from mild discomfort that requires rest to acute instability or inability to walk, which demands immediate expert consultation to rule out fractures or ligament tears.",
+  "symptoms": [
+    "Complete inability to bear weight on the leg",
+    "Buckling or a feeling of the knee 'giving way'",
+    "Acute swelling and inflammation after an injury",
+    "Mild to persistent aching in the knee joint",
+    "Stiffness or limited range of motion during daily tasks"
+  ],
+  "procedure": [
+    {
+      "title": "Emergency Triage Assessment",
+      "summary": "Immediate action for patients unable to walk or bear weight.",
+      "detail": "For patients who are completely unable to walk, we prioritize an immediate orthopaedic consultation. This severity level often indicates a serious traumatic injury such as a bone fracture, a complete ligament tear, or a joint dislocation, all of which require urgent clinical intervention."
+    },
+    {
+      "title": "Instability & Buckling Evaluation",
+      "summary": "Specialized diagnosis for patients experiencing joint instability.",
+      "detail": "If a patient can walk but feels the knee buckling, swelling, or hurting, a detailed evaluation by a knee specialist is necessary. These symptoms are hallmarks of soft-tissue damage, such as meniscus tears or partial ligament injuries, which require targeted imaging and a clinical stability test."
+    },
+    {
+      "title": "Conservative Management (R.I.C.E.)",
+      "summary": "Home care and rest for mild, non-traumatic knee pain.",
+      "detail": "For mild pain where walking is still possible without instability, we recommend conservative management. This includes applying ice packs, resting the joint, and avoiding strenuous activity. This approach helps reduce minor inflammation and allows the body's natural healing process to take place."
+    },
+    {
+      "title": "Diagnostic Rule-Out",
+      "summary": "Clinical consultation for persistent or worsening discomfort.",
+      "detail": "If mild knee pain persists beyond 2-3 days despite rest and icing, a professional orthopaedic consultation is required. We perform diagnostic tests to rule out underlying issues like early-stage osteoarthritis or chronic tendonitis that could worsen if left untreated."
+    },
+    {
+      "title": "Tailored Recovery Plan",
+      "summary": "Restoring function based on the specific severity of the injury.",
+      "detail": "Once the cause of the knee pain is identified, Dr. Vijay Kumar D develops a personalized recovery plan. This may range from physical therapy and muscle strengthening for mild cases to surgical reconstruction for those experiencing chronic buckling and instability."
+    }
+  ],
+  "stats": [
+    {
+      "val": "2-3 Days",
+      "lbl": "Pain Threshold"
+    },
+    {
+      "val": "Expert",
+      "lbl": "Triage Care"
+    },
+    {
+      "val": "Urgent",
+      "lbl": "If Unable to Walk"
+    }
+  ]
+},
+    {
+  "id": 14,
+  "title": "Loose Body",
+  "category": "Orthopaedic Conditions",
+  "bodyPart": "knee",
+  "slug": "loose-body",
+  "imagePath": "src/orthopaedic conditions/knee/Loose Body.jpg",
+  "description": "Loose bodies are small fragments of bone or cartilage that break off and float freely within the knee joint due to injury or arthritis. At SV Ortho Care, we specialize in identifying these fragments and utilizing minimally invasive arthroscopy to either reattach or remove them, restoring smooth joint movement and relieving pain.",
+  "symptoms": [
+    "Sudden 'locking' or catching sensation in the knee",
+    "Feeling of something moving inside the joint",
+    "Sharp pain during specific movements",
+    "Chronic joint swelling and inflammation",
+    "Intermittent stiffness and restricted range of motion"
+  ],
+  "procedure": [
+    {
+      "title": "Fragment Localization",
+      "summary": "Clinical and radiological evaluation of fragment size and position.",
+      "detail": "Our orthopedic surgeons utilize physical exams and imaging to locate loose bodies within the knee. Because these fragments can shift positions, we carefully assess their impact on the joint surface and determine if they are causing mechanical blockages or accelerated wear of the surrounding cartilage."
+    },
+    {
+      "title": "Arthroscopic Removal",
+      "summary": "Minimally invasive extraction of free-floating fragments.",
+      "detail": "Using small 'key-hole' incisions, an arthroscope is inserted to visualize the loose bodies. If the fragments are small or damaged, they are completely removed from the joint. This prevents them from getting caught between moving surfaces, which is the primary cause of sudden locking and sharp pain."
+    },
+    {
+      "title": "Internal Fixation (Reattachment)",
+      "summary": "Surgically reattaching large, healthy bone or cartilage pieces.",
+      "detail": "In cases where the loose body is a large, healthy piece of bone or cartilage—often seen in acute injuries—our surgeons may choose to reattach it. Using specialized bio-absorbable pins or screws, the fragment is secured back to its original position to preserve the natural joint anatomy and surface integrity."
+    },
+    {
+      "title": "Arthroscopic 'Cleaning' for OA",
+      "summary": "Smoothing roughened bone surfaces and trimming damaged tissue.",
+      "detail": "For patients where loose bodies are a result of Osteoarthritis, we perform a joint debridement. This involves shaving and smoothing roughened bone surfaces and trimming any frayed meniscus tissue. This cleaning process significantly reduces friction within the joint, providing relief from chronic stiffness and pain."
+    },
+    {
+      "title": "Functional Rehabilitation",
+      "summary": "Restoring joint mechanics and preventing future stiffness.",
+      "detail": "Following the removal or reattachment of loose bodies, a structured physiotherapy program is initiated. The focus is on restoring the smooth gliding motion of the knee and strengthening the supporting muscles. This ensures a faster recovery and helps the patient return to a pain-free, active lifestyle sooner."
+    }
+  ],
+  "stats": [
+    {
+      "val": "Keyhole",
+      "lbl": "Surgery Type"
+    },
+    {
+      "val": "Fast",
+      "lbl": "Recovery Time"
+    },
+    {
+      "val": "Expert",
+      "lbl": "Joint Cleaning"
+    }
+  ]
+},
+    {
+  "id": 15,
+  "title": "Meniscus Tear",
+  "category": "Orthopaedic Conditions",
+  "bodyPart": "knee",
+  "slug": "meniscus-tear",
+  "imagePath": "src/orthopaedic conditions/knee/Meniscus Tear.jpg",
+  "description": "The meniscus is a crescent-shaped fibrocartilage pad that acts as a natural shock absorber between the knee bones. Tears can occur from sudden twisting or age-related wear, leading to pain and potential arthritis. At SV Ortho Care, we specialize in advanced arthroscopic meniscus repair and transplantation to preserve the joint's natural cushioning.",
+  "symptoms": [
+    "A noticeable 'popping' sensation during the initial injury",
+    "Internal knee swelling occurring within a few hours",
+    "Difficulty in fully bending or straightening the leg",
+    "Sensation of the knee joint catching or locking",
+    "Pain specifically on the inner or outer side of the knee"
+  ],
+  "procedure": [
+    {
+      "title": "Initial Conservative Management",
+      "summary": "Reducing joint stress through rest and walking aids.",
+      "detail": "For minor tears, we focus on reducing load and inflammation. This includes utilizing walking aids to minimize weight-bearing stress on the damaged meniscus, paired with intra-articular injections to control pain and localized swelling, allowing the joint environment to stabilize before further intervention."
+    },
+    {
+      "title": "Diagnostic Arthroscopy",
+      "summary": "Visualizing the tear type and location through keyhole access.",
+      "detail": "Using a tiny camera inserted through small incisions, we evaluate the meniscus's structure. We identify whether the tear is in the 'red zone' (good blood supply) or 'white zone' (poor blood supply), which is a vital factor in deciding between a simple cleaning or a full repair."
+    },
+    {
+      "title": "Arthroscopic Meniscus Repair",
+      "summary": "Suturing and sewing the torn meniscus to preserve tissue.",
+      "detail": "Whenever possible, we prioritize preserving the meniscus by sewing the torn edges back together. This includes specialized techniques like Meniscus Root Repair to fix tears at the attachment site or Saucerization to reshape abnormal tissue, ensuring the joint retains its natural shock-absorbing properties."
+    },
+    {
+      "title": "Meniscal Allograft Transplant (MATS)",
+      "summary": "Replacing a severely damaged meniscus with donor tissue.",
+      "detail": "In cases where the meniscus is completely missing or irreparably damaged, we perform Meniscal Allograft Transplant Surgery (MATS). This involves transplanting a healthy donor meniscus into the joint to restore cushioning, prevent bone-on-bone friction, and delay the onset of advanced arthritis."
+    },
+    {
+      "title": "Post-Repair Rehabilitation",
+      "summary": "Guided physiotherapy to ensure successful healing and mobility.",
+      "detail": "Recovery from meniscus surgery requires a structured physiotherapy program. We focus on gradually restoring the range of motion while protecting the repair site. Our specialists guide patients through specific exercises to rebuild muscle strength around the knee, facilitating a safe and quick return to sports or daily activities."
+    }
+  ],
+  "stats": [
+    {
+      "val": "2",
+      "lbl": "Menisci per Knee"
+    },
+    {
+      "val": "Keyhole",
+      "lbl": "Minimally Invasive"
+    },
+    {
+      "val": "MATS",
+      "lbl": "Advanced Transplant"
+    }
+  ]
+},
+    {
+      "id": 16,
+      "title": "Multi Ligament Injury",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "knee",
+      "slug": "multi-ligament-injury",
+      "imagePath": "src/orthopaedic conditions/knee/Multi Ligament Injury.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Partial Knee Replacement",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "knee",
+      "slug": "partial-knee-replacement",
+      "imagePath": "src/specific surgical treatments/joint replacement surgery/partial knee replacement.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Patella Instability",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "knee",
+      "slug": "patella-instability",
+      "imagePath": "src/orthopaedic conditions/knee/Patella Instability.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "PCL",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "knee",
+      "slug": "pcl",
+      "imagePath": "src/orthopaedic conditions/knee/PCL.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Stiff Knee",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "knee",
+      "slug": "stiff-knee",
+      "imagePath": "src/orthopaedic conditions/knee/Stiff Knee.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Synovitis",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "knee",
+      "slug": "synovitis",
+      "imagePath": "src/orthopaedic conditions/knee/Synovitis.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Total Knee Replacement",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "knee",
+      "slug": "total-knee-replacement",
+      "imagePath": "src/orthopaedic conditions/knee/Total Knee Replacement.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Frozen Shoulder",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "shoulder",
+      "slug": "frozen-shoulder",
+      "imagePath": "src/orthopaedic conditions/shoulder/frozen shoulder.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Impingement Syndrome",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "shoulder",
+      "slug": "impingement-syndrome",
+      "imagePath": "src/orthopaedic conditions/shoulder/impingement Syndrome.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Rotator Cuff Tear",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "shoulder",
+      "slug": "rotator-cuff-tear",
+      "imagePath": "src/orthopaedic conditions/shoulder/rotator cuff tear.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Shoulder Dislocations and Instability",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "shoulder",
+      "slug": "shoulder-dislocations-and-instability",
+      "imagePath": "src/orthopaedic conditions/shoulder/Shoulder Dislocations and instability.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Structure of Shoulder",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "shoulder",
+      "slug": "structure-of-shoulder",
+      "imagePath": "src/orthopaedic conditions/shoulder/structure of shoulder.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Arthritis in Spine",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "spine",
+      "slug": "arthritis-in-spine",
+      "imagePath": "src/orthopaedic conditions/spine/Arthritis in Spine.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Back Pain",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "spine",
+      "slug": "back-pain",
+      "imagePath": "src/orthopaedic conditions/spine/Back Pain.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Disc Prolapse",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "spine",
+      "slug": "disc-prolapse",
+      "imagePath": "src/orthopaedic conditions/spine/Disc Prolapse.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Fractures",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "spine",
+      "slug": "fractures",
+      "imagePath": "src/orthopaedic conditions/spine/Fractures.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Spondylolisthesis",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "spine",
+      "slug": "spondylolisthesis",
+      "imagePath": "src/orthopaedic conditions/spine/Spondylolisthesis.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Vertebroplasty",
+      "category": "Orthopaedic Conditions",
+      "bodyPart": "spine",
+      "slug": "vertebroplasty",
+      "imagePath": "src/orthopaedic conditions/spine/vertebroplasty.jpg",
+      "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
+      "symptoms": [
+        "Persistent pain, swelling, and stiffness in the affected joint",
+        "Pain while walking, lying down, or applying weight",
+        "Restricted movement in the joint",
+        "Difficulty in bending forward or tying shoelaces",
+        "Noticeable limping while walking"
+      ],
+      "procedure": [
+        {
+          "title": "Bone Marrow Extraction",
+          "summary": "A small amount of bone marrow is carefully drawn from the patient under controlled conditions.",
+          "detail": "This initial phase involves a minimally invasive procedure where a physician extracts a small volume of bone marrow aspirate, typically from the iliac crest (hip bone). The procedure is performed under local anesthesia or conscious sedation to ensure patient comfort while maintaining a sterile environment. This aspirate is rich in mesenchymal stem cells, which possess the unique ability to differentiate into various cell types, including bone-forming cells. Once collected, the sample is immediately secured and transported to a specialized laboratory for processing."
+        },
+        {
+          "title": "Cell Separation & Culturing",
+          "summary": "Specialised bone cells are separated and expanded in a sterile, controlled laboratory environment.",
+          "detail": "Once the marrow reaches the laboratory, technicians use centrifugal force and specific growth media to isolate the target regenerative cells from other blood components. These isolated cells are then placed in a highly controlled bioreactor that mimics the body's natural environment to encourage rapid multiplication. Over several weeks, the cell population is expanded until it reaches a therapeutic threshold of millions of healthy, potent cells. Rigorous quality control checks are performed throughout this expansion phase to ensure the cells remain pure, viable, and free from any contamination."
+        },
+        {
+          "title": "Implantation of Bone Cells",
+          "summary": "The cultured cells are re-implanted into the affected joint, promoting healing and bone regeneration.",
+          "detail": "The final clinical step involves delivering the concentrated, laboratory-grown cells directly into the site of the bone defect or joint injury. This is often done using a percutaneous injection guided by real-time imaging like fluoroscopy or ultrasound to ensure precise placement. Once implanted, these specialized cells act as a biological seed, signaling the body to begin the repair process and physically forming new, healthy bone tissue. This targeted approach aims to treat the root cause of the damage rather than just managing the symptoms."
+        },
+        {
+          "title": "Post-Procedure Monitoring",
+          "summary": "Regular follow-up imaging and clinical assessments to track bone regeneration progress.",
+          "detail": "After the cells are implanted, a scheduled series of clinical evaluations begins to ensure the graft is integrating successfully. This typically involves advanced imaging techniques, such as MRI or high-resolution CT scans, to visually confirm the density and growth of the new bone tissue. Doctors also perform physical assessments to check for reductions in pain levels and improvements in weight-bearing capacity. These check-ups are vital for catching any potential complications early and for validating that the regeneration is proceeding according to the clinical timeline."
+        },
+        {
+          "title": "Rehabilitation Programme",
+          "summary": "Structured physiotherapy to restore joint mobility, strength, and function.",
+          "detail": "The success of the biological repair is heavily dependent on a structured physiotherapy regimen designed to protect the new cells while restoring joint mechanics. Initially, the focus is on gentle range-of-motion exercises and non-weight-bearing activities to prevent stiffness without stressing the healing site. As the bone strengthens, the program transitions into resistance training and functional movements to rebuild the surrounding muscle groups. This gradual progression ensures that the joint regains its full strength and stability, allowing the patient to return to their daily activities with confidence."
+        }
+      ],
+      "stats": [
+        {
+          "val": "20\u201345",
+          "lbl": "Typical Age Group"
+        },
+        {
+          "val": "4",
+          "lbl": "Progression Stages"
+        },
+        {
+          "val": "100%",
+          "lbl": "Autologous Therapy"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Ankle Sprain Surgery",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "ankle-foot-surgery",
+      "slug": "ankle-sprain-surgery",
+      "imagePath": "src/specific surgical treatments/ankle foot surgery/Ankle Sprain Surgery.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "CAFL Repair(IB)",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "ankle-foot-surgery",
+      "slug": "cafl-repair-ib",
+      "imagePath": "src/specific surgical treatments/ankle foot surgery/CAFL Repair(IB).jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Flat Foot Surgery",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "ankle-foot-surgery",
+      "slug": "flat-foot-surgery",
+      "imagePath": "src/specific surgical treatments/ankle foot surgery/flat foot surgery.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "T.A Reconn Surgery",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "ankle-foot-surgery",
+      "slug": "t-a-reconn-surgery",
+      "imagePath": "src/specific surgical treatments/ankle foot surgery/T.A Reconn Surgery.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Ankle Foot Fracture",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "complex-trauma-surgery",
+      "slug": "ankle-foot-fracture",
+      "imagePath": "src/specific surgical treatments/complex trauma surgery/ankle foot fracture.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Elbow Fracture",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "complex-trauma-surgery",
+      "slug": "elbow-fracture",
+      "imagePath": "src/specific surgical treatments/complex trauma surgery/elbow facture.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Hip Fracture",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "complex-trauma-surgery",
+      "slug": "hip-fracture",
+      "imagePath": "src/specific surgical treatments/complex trauma surgery/hip fracture.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Knee Fracture",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "complex-trauma-surgery",
+      "slug": "knee-fracture",
+      "imagePath": "src/specific surgical treatments/complex trauma surgery/knee fracture.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Pelviss Acetabulum Fracture",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "complex-trauma-surgery",
+      "slug": "pelviss-acetabulum-fracture",
+      "imagePath": "src/specific surgical treatments/complex trauma surgery/Pelviss Acetabulum Fracture.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Shoulder Fracture",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "complex-trauma-surgery",
+      "slug": "shoulder-fracture",
+      "imagePath": "src/specific surgical treatments/complex trauma surgery/shoulder fracture.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Wrist Fracture",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "complex-trauma-surgery",
+      "slug": "wrist-fracture",
+      "imagePath": "src/specific surgical treatments/complex trauma surgery/wrist fracture.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Elbow Replacement",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "joint-replacement-surgery",
+      "slug": "elbow-replacement",
+      "imagePath": "src/specific surgical treatments/joint replacement surgery/elbow replacement.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Hip Replacement",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "joint-replacement-surgery",
+      "slug": "hip-replacement",
+      "imagePath": "src/specific surgical treatments/joint replacement surgery/hip replacement.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Knee Replacement",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "joint-replacement-surgery",
+      "slug": "knee-replacement",
+      "imagePath": "src/specific surgical treatments/joint replacement surgery/knee replacement.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Partial Knee Replacement",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "joint-replacement-surgery",
+      "slug": "partial-knee-replacement",
+      "imagePath": "src/specific surgical treatments/joint replacement surgery/partial knee replacement.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Robotic Knee Replacement",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "joint-replacement-surgery",
+      "slug": "robotic-knee-replacement",
+      "imagePath": "src/specific surgical treatments/joint replacement surgery/robotic knee replacement.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Robotic Replacement",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "joint-replacement-surgery",
+      "slug": "robotic-replacement",
+      "imagePath": "src/specific surgical treatments/joint replacement surgery/robotic replacement.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Shoulder Replacement",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "joint-replacement-surgery",
+      "slug": "shoulder-replacement",
+      "imagePath": "src/specific surgical treatments/joint replacement surgery/shoulder replacement.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "HTO",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "knee-preservation-surgery",
+      "slug": "hto",
+      "imagePath": "src/specific surgical treatments/knee preservation surgery/HTO.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "TCVO",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "knee-preservation-surgery",
+      "slug": "tcvo",
+      "imagePath": "src/specific surgical treatments/knee preservation surgery/TCVO.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "PRP",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "orthobiologics",
+      "slug": "prp",
+      "imagePath": "src/specific surgical treatments/Orthobiologics/PRP.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Regeneration",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "orthobiologics",
+      "slug": "regeneration",
+      "imagePath": "src/specific surgical treatments/Orthobiologics/regeneration.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Stem Cell Therapy",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "orthobiologics",
+      "slug": "stem-cell-therapy",
+      "imagePath": "src/specific surgical treatments/Orthobiologics/stem cell therapy.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "ACDF",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "spine-surgery",
+      "slug": "acdf",
+      "imagePath": "src/specific surgical treatments/Spine surgery/ACDF.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "DISCEXTOMY",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "spine-surgery",
+      "slug": "discextomy",
+      "imagePath": "src/specific surgical treatments/Spine surgery/DISCEXTOMY.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "title": "TLEF",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "spine-surgery",
+      "slug": "tlef",
+      "imagePath": "src/specific surgical treatments/Spine surgery/TLEF.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Ankle Arthroscopy",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "sports-surgery",
+      "slug": "ankle-arthroscopy",
+      "imagePath": "src/specific surgical treatments/Sports surgery/ankle anthroscopy.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Hip Arthroscopy",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "sports-surgery",
+      "slug": "hip-arthroscopy",
+      "imagePath": "src/specific surgical treatments/Sports surgery/hip anthroscopy.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Knee Arthroscopy",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "sports-surgery",
+      "slug": "knee-arthroscopy",
+      "imagePath": "src/specific surgical treatments/Sports surgery/knee anthroscopy.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Shoulder Arthroscopy",
+      "category": "Specific Surgical Treatments",
+      "bodyPart": "sports-surgery",
+      "slug": "shoulder-arthroscopy",
+      "imagePath": "src/specific surgical treatments/Sports surgery/shoulder anthroscopy.jpg",
+      "description": "A precision surgical procedure performed by our experienced orthopaedic team. Minimally invasive techniques and evidence-based protocols ensure faster recovery and superior results.",
+      "symptoms": [
+        "Imaging confirms surgical candidacy",
+        "Conservative treatment has been exhausted",
+        "Severe structural damage requiring reconstruction",
+        "Significant functional impairment",
+        "Patient goals require surgical intervention"
+      ],
+      "procedure": [
+        "Pre-operative assessment and anaesthesia consultation",
+        "Preparation and sterile surgical setup",
+        "Precision surgery using latest techniques and implants",
+        "Post-operative monitoring and pain management",
+        "Comprehensive rehabilitation plan for optimal recovery"
+      ],
+      "stats": [
+        {
+          "val": "Same Day",
+          "lbl": "Hospital Stay"
+        },
+        {
+          "val": "Minimal",
+          "lbl": "Scarring"
+        },
+        {
+          "val": "Rapid",
+          "lbl": "Recovery"
+        }
+      ]
+    }
+  ]
+}

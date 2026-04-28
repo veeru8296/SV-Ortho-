@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/footer.css" />
+    <link rel="stylesheet" href="src/general.css" />
+    <link rel="stylesheet" href="src/header.css" />
+    <link rel="stylesheet" href="src/gallery.css" />
+    <link rel="stylesheet" href="src/conditions.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="src/script.js"></script>
+    <title>Condition – SV Ortho Care</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      :root {
+        --primary: #002570;
+        --secondary: #007efe;
+        --bg: #eff5ff;
+        --white: #ffffff;
+        --text-dark: #0d1b3e;
+        --text-mid: #3a4a6b;
+        --text-muted: #7a8ab0;
+        --border: rgba(0, 37, 112, 0.1);
+        --shadow-sm: 0 2px 12px rgba(0, 37, 112, 0.07);
+        --shadow-md: 0 8px 40px rgba(0, 37, 112, 0.11);
+      }
+
+      body {
+        font-family: sans-serif;
+        background: var(--bg);
+        color: var(--text-dark);
+        min-height: 100vh;
+      }
+
+      /* ── BANNER ── */
+      .banner-section {
+        background: var(--primary);
+        position: relative;
+        overflow: hidden;
+        height: 300px;
+        display: flex;
+        align-items: flex-end;
+      }
+
+      .banner-section::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          135deg,
+          #001a52 0%,
+          #002570 45%,
+          #003099 100%
+        );
+      }
+
+      .banner-section::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: radial-gradient(
+          rgba(0, 126, 254, 0.22) 1px,
+          transparent 1px
+        );
+        background-size: 24px 24px;
+        pointer-events: none;
+      }
+
+      .banner-orb {
+        position: absolute;
+        top: -80px;
+        right: -60px;
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle,
+          rgba(0, 126, 254, 0.35) 0%,
+          transparent 70%
+        );
+        z-index: 1;
+      }
+
+      .banner-orb2 {
+        position: absolute;
+        bottom: -100px;
+        left: 60px;
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle,
+          rgba(0, 126, 254, 0.18) 0%,
+          transparent 70%
+        );
+        z-index: 1;
+      }
+
+      /* ── CHANGE 1: Banner bottom centered ── */
+      .banner-bottom {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        padding: 0 48px 32px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around; /* changed from space-between → center */
+        gap: 60px; /* gap between title block and stats */
+      }
+
+      .banner-eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: rgba(0, 126, 254, 0.18);
+        border: 1px solid rgba(0, 126, 254, 0.35);
+        color: #74b9ff;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 4px 14px;
+        border-radius: 100px;
+        margin-bottom: 12px;
+      }
+      .banner-eyebrow i {
+        font-size: 10px;
+      }
+
+      .banner-h1 {
+        font-family: sans-serif;
+        font-size: clamp(22px, 3vw, 36px);
+        font-weight: 700;
+        color: #fff;
+        line-height: 1.15;
+        letter-spacing: -0.4px;
+      }
+
+      .banner-right {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        flex-shrink: 0;
+      }
+
+      .banner-stat {
+        text-align: center;
+        border-left: 1px solid rgba(255, 255, 255, 0.12);
+        padding-left: 24px;
+      }
+      .banner-stat .num {
+        font-size: 28px;
+        font-weight: 700;
+        color: var(--secondary);
+        line-height: 1;
+      }
+      .banner-stat .lbl {
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.45);
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        margin-top: 4px;
+      }
+
+      /* ── BREADCRUMB ── */
+      .breadcrumb-section {
+        background: var(--white);
+        border-bottom: 1px solid var(--border);
+        padding: 0 48px;
+      }
+      .breadcrumb-nav {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 14px 0;
+      }
+      .breadcrumb {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
+      .breadcrumb-item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 13px;
+        color: var(--text-muted);
+      }
+      .breadcrumb-item a {
+        color: var(--text-muted);
+        text-decoration: none;
+        transition: color 0.18s;
+      }
+      .breadcrumb-item a:hover {
+        color: var(--secondary);
+      }
+      .breadcrumb-item + .breadcrumb-item::before {
+        content: "/";
+        color: var(--border);
+        font-size: 14px;
+        margin-right: 2px;
+      }
+      .breadcrumb-item.active {
+        color: var(--primary);
+        font-weight: 500;
+      }
+
+      /* ── CONTENT SECTION ── */
+      .content-section {
+        padding: 52px 48px 80px;
+      }
+
+      /* ── CHANGE 2: Full-width single column wrapper ── */
+      .content-wrapper {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+      }
+
+      /* Main card — now full width */
+      .content-card {
+        background: var(--white);
+        border-radius: 20px;
+        border: 1px solid var(--border);
+        box-shadow: var(--shadow-md);
+        overflow: hidden;
+        width: 100%;
+      }
+
+      .card-header {
+        background: var(--primary);
+        padding: 28px 36px 24px;
+        position: relative;
+        overflow: hidden;
+      }
+      .card-header::after {
+        content: "";
+        position: absolute;
+        right: -30px;
+        top: -30px;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        border: 24px solid rgba(0, 126, 254, 0.2);
+      }
+      .card-header-tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: rgba(0, 126, 254, 0.2);
+        border: 1px solid rgba(0, 126, 254, 0.4);
+        color: #74b9ff;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        padding: 4px 12px;
+        border-radius: 100px;
+        margin-bottom: 12px;
+      }
+      .content-title {
+        font-family: sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1.2;
+        letter-spacing: -0.3px;
+        position: relative;
+        z-index: 1;
+      }
+
+      .card-body {
+        padding: 32px 36px 36px;
+      }
+      .content-description p {
+        font-size: 15px;
+        line-height: 1.8;
+        color: var(--text-mid);
+        margin-bottom: 16px;
+      }
+      .content-description p:last-child {
+        margin-bottom: 0;
+      }
+
+      .info-highlight {
+        display: flex;
+        gap: 14px;
+        align-items: flex-start;
+        background: var(--bg);
+        border: 1px solid rgba(0, 126, 254, 0.15);
+        border-left: 4px solid var(--secondary);
+        border-radius: 0 12px 12px 0;
+        padding: 16px 20px;
+        margin-top: 24px;
+      }
+      .info-highlight i {
+        color: var(--secondary);
+        font-size: 18px;
+        margin-top: 2px;
+        flex-shrink: 0;
+      }
+      .info-highlight p {
+        font-size: 14px !important;
+        color: var(--text-mid) !important;
+        margin: 0 !important;
+        line-height: 1.65 !important;
+      }
+
+      /* ── CHANGE 2: Horizontal bottom row — cta + quick side by side ── */
+      .bottom-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 28px;
+        width: 100%;
+      }
+
+      /* CTA card — now half width */
+      .cta-card {
+        background: var(--primary);
+        border-radius: 18px;
+        padding: 28px 28px;
+        position: relative;
+        overflow: hidden;
+      }
+      .cta-card::before {
+        content: "";
+        position: absolute;
+        bottom: -40px;
+        right: -40px;
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        border: 30px solid rgba(0, 126, 254, 0.2);
+      }
+      .cta-icon {
+        width: 46px;
+        height: 46px;
+        background: rgba(0, 126, 254, 0.2);
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        color: #74b9ff;
+        margin-bottom: 16px;
+      }
+      .cta-card h3 {
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 8px;
+        line-height: 1.25;
+        position: relative;
+        z-index: 1;
+      }
+      .cta-card p {
+        font-size: 13.5px;
+        color: rgba(255, 255, 255, 0.6);
+        line-height: 1.6;
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 1;
+      }
+      .cta-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--secondary);
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 13.5px;
+        font-weight: 600;
+        padding: 10px 20px;
+        border-radius: 100px;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        transition: all 0.18s;
+        position: relative;
+        z-index: 1;
+      }
+      .cta-btn:hover {
+        background: #0069e0;
+        transform: translateY(-1px);
+      }
+
+      /* Quick links card — now half width */
+      .quick-card {
+        background: var(--white);
+        border-radius: 18px;
+        border: 1px solid var(--border);
+        box-shadow: var(--shadow-sm);
+        padding: 28px 28px 24px;
+      }
+      .quick-card-title {
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        margin-bottom: 16px;
+      }
+
+      /* Two-column grid for the quick links list */
+      .quick-links {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+      .quick-links li a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 12px;
+        border-radius: 10px;
+        font-size: 14px;
+        color: var(--text-mid);
+        text-decoration: none;
+        transition: all 0.16s;
+      }
+      .quick-links li a:hover {
+        background: var(--bg);
+        color: var(--primary);
+      }
+      .quick-links li a i {
+        font-size: 11px;
+        color: var(--text-muted);
+      }
+      .quick-links li a:hover i {
+        color: var(--secondary);
+      }
+
+      /* ── RESPONSIVE ── */
+      @media (max-width: 880px) {
+        .bottom-row {
+          grid-template-columns: 1fr;
+        }
+        .quick-links {
+          grid-template-columns: 1fr;
+        }
+        .banner-right {
+          display: none;
+        }
+        .banner-bottom {
+          gap: 0;
+          justify-content: flex-start;
+        }
+        .banner-bottom,
+        .breadcrumb-section,
+        .content-section {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .card-body,
+        .card-header {
+          padding-left: 24px;
+          padding-right: 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header-placeholder"></div>
+
+    <!-- ══ BANNER ══ -->
+    <section class="banner-section">
+      <div class="banner-orb"></div>
+      <div class="banner-orb2"></div>
+      <div class="banner-bottom">
+        <!-- LEFT: title block -->
+        <div class="banner-title-block">
+          <div class="banner-eyebrow">
+            <i class="fas fa-bone"></i>
+            SV Ortho Care
+          </div>
+          <h1 class="banner-h1">Specific Surgical Treatments</h1>
+        </div>
+        <!-- RIGHT: stats — now centered alongside title -->
+        <div class="banner-right">
+          <div class="banner-stat">
+            <div class="num">20+</div>
+            <div class="lbl">Years of Care</div>
+          </div>
+          <div class="banner-stat">
+            <div class="num">5000+</div>
+            <div class="lbl">Procedures Done</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ BREADCRUMB ══ -->
+    <section class="breadcrumb-section">
+      <div class="breadcrumb-nav">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="index.php"
+                ><i class="fas fa-house" style="font-size: 11px"></i> Home</a
+              >
+            </li>
+            <li class="breadcrumb-item">
+              <a href="index.php#services">Specific Surgical Treatments</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Condition
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ══ CONTENT ══ -->
+    <section class="content-section">
+      <div class="content-wrapper">
+        <!-- Full-width main content card -->
+        <div class="content-card">
+          <div class="card-header">
+            <div class="card-header-tag">
+              <i class="fas fa-file-medical"></i> Condition Details
+            </div>
+            <h2 class="content-title">Condition Information</h2>
+          </div>
+          <div class="card-body">
+            <div class="content-description">
+              <p>
+                We provide comprehensive information and treatment options for
+                various orthopaedic conditions. Our experienced team of
+                specialists is dedicated to helping you understand your
+                condition and find the most effective treatment approach.
+              </p>
+              <p>
+                For detailed information about this specific condition and
+                personalized treatment recommendations, please consult with our
+                orthopaedic specialists.
+              </p>
+            </div>
+            <div class="info-highlight">
+              <i class="fas fa-circle-info"></i>
+              <p>
+                This page provides general orthopaedic information. For a
+                personalized diagnosis and treatment plan, please book a
+                consultation with one of our specialists.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Horizontal bottom row: cta-card + quick-card side by side -->
+        <div class="bottom-row">
+          <!-- Book appointment CTA -->
+          <div class="cta-card">
+            <div class="cta-icon"><i class="fas fa-calendar-check"></i></div>
+            <h3>Book a Consultation</h3>
+            <p>
+              Speak with our specialists and get a personalised treatment plan
+              tailored to your needs.
+            </p>
+            <a href="contact.html" class="cta-btn">
+              <i class="fas fa-arrow-right"></i> Schedule Now
+            </a>
+          </div>
+
+          <!-- Quick links -->
+          <div class="quick-card">
+            <div class="quick-card-title">Explore Treatments</div>
+            <ul class="quick-links">
+              <li>
+                <a href="#"
+                  >🦵 Knee Replacement <i class="fas fa-chevron-right"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  >🦴 Hip Replacement <i class="fas fa-chevron-right"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  >🤖 Robotic Surgery <i class="fas fa-chevron-right"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  >🏃 Sports Injuries <i class="fas fa-chevron-right"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  >🧠 Spine Care <i class="fas fa-chevron-right"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  >💪 Shoulder injuries<i class="fas fa-chevron-right"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- contact-card removed as requested -->
+      </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+    <div id="sidebar-placeholder"></div>
+    <script src="main.js"></script>
+  </body>
+</html>

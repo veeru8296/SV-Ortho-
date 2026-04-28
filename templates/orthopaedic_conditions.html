@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-inject="title">Condition | SV Ortho Care</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=IBM+Plex+Mono:wght@300;400;500&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{--primary:#002570;--secondary:#007eff;--white:#ffffff;--light:#eef5ff;--dark-bg:#001540;--mid-bg:#f2f6fc;--text:#0d1f3c;--muted:#4a6080;--warn:#e05a00;}
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family: sans-serif;background:var(--white);color:var(--text);overflow-x:hidden;}
+  /* TOP BAND */
+  .top-band{background:var(--secondary);color:white;padding:10px 80px;display:flex;justify-content:space-between;align-items:center;font-family: sans-serif;font-size:11px;letter-spacing:1.5px;}
+  .top-band a{color:white;text-decoration:none;}
+  /* HERO */
+  .hero{background:var(--dark-bg);padding:80px 80px 0;display:grid;grid-template-columns:1.1fr 0.9fr;gap:60px;align-items:end;overflow:hidden;position:relative;min-height:85vh;}
+  .hero::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 79px,rgba(0,126,255,0.05) 79px,rgba(0,126,255,0.05) 80px),repeating-linear-gradient(90deg,transparent,transparent 79px,rgba(0,126,255,0.05) 79px,rgba(0,126,255,0.05) 80px);pointer-events:none;}
+  .hero-content{position:relative;z-index:2;padding-bottom:80px;}
+  .hero-eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:32px;}
+  .badge{background:var(--secondary);color:white;font-size:10px;letter-spacing:2.5px;text-transform:uppercase;padding:5px 14px;font-family: sans-serif;}
+  .badge-outline{border:1px solid rgba(255,255,255,0.2);color:rgba(255,255,255,0.5);font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:5px 14px;font-family: sans-serif;}
+  .hero h1{font-size:clamp(3.5rem,6vw,6.5rem);font-weight:800;color:white;line-height:0.95;letter-spacing:-2px;margin-bottom:12px;}
+  .hero h1 .outline-text{-webkit-text-stroke:2px var(--secondary);color:transparent;}
+  .hero-sub{font-family: sans-serif;font-size:12px;color:var(--secondary);letter-spacing:3px;text-transform:uppercase;margin-bottom:32px;font-weight:300;}
+  .hero-desc{font-family: sans-serif;font-size:16px;color:rgba(255,255,255,0.55);line-height:1.75;max-width:480px;margin-bottom:48px;}
+  .hero-buttons{display:flex;gap:12px;flex-wrap:wrap;}
+  .btn-solid{background:var(--secondary);color:white;padding:14px 32px;font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:700;border:2px solid var(--secondary);text-decoration:none;display:inline-block;transition:all .25s;}
+  .btn-solid:hover{background:#0068d6;border-color:#0068d6;}
+  .btn-ghost{background:transparent;color:rgba(255,255,255,0.6);padding:14px 32px;font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:700;border:2px solid rgba(255,255,255,0.15);text-decoration:none;display:inline-block;transition:all .25s;}
+  .btn-ghost:hover{border-color:var(--secondary);color:white;}
+  /* HERO VISUAL */
+  .hero-visual{position:relative;z-index:2;align-self:stretch;display:flex;align-items:flex-end;}
+  /* ===== HERO IMAGE - CLINICAL DIAGRAM PANEL ===== */
+  .hero-img-panel{width:100%;display:flex;flex-direction:column;gap:0;}
+  .hero-img-wrap{width:100%;height:440px;overflow:hidden;position:relative;border-top:3px solid var(--secondary);}
+  .hero-img-wrap img{width:100%;height:100%;object-fit:cover;opacity:0.65;mix-blend-mode:luminosity;filter:contrast(1.1);transition:opacity .4s;}
+  .hero-img-wrap img.loaded{opacity:0.72;}
+  .hero-img-wrap::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,var(--dark-bg) 0%,transparent 55%);}
+  .hero-img-placeholder{width:100%;height:440px;background:rgba(0,37,112,0.4);border:1px dashed rgba(0,126,255,0.3);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:rgba(0,126,255,0.5);font-family: sans-serif;font-size:12px;letter-spacing:2px;}
+  .hero-img-placeholder svg{width:48px;height:48px;opacity:.4;}
+  .hero-img-meta{background:rgba(0,37,112,0.6);border-top:1px solid rgba(0,126,255,0.2);padding:14px 20px;display:flex;gap:24px;backdrop-filter:blur(8px);}
+  .hero-img-meta-item{display:flex;flex-direction:column;}
+  .hero-img-meta-item .m-val{font-size:1.1rem;font-weight:800;color:var(--secondary);line-height:1;}
+  .hero-img-meta-item .m-lbl{font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:1.5px;text-transform:uppercase;font-family: sans-serif;margin-top:3px;}
+  /* QUICK FACTS */
+  .quick-facts{position:absolute;right:-24px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:2px;z-index:5;}
+  .fact-pill{background:var(--primary);border-left:3px solid var(--secondary);padding:14px 20px;min-width:180px;}
+  .fact-pill .val{font-size:1.4rem;font-weight:800;color:var(--secondary);line-height:1;}
+  .fact-pill .lbl{font-size:10px;color:rgba(255,255,255,0.5);letter-spacing:1.5px;text-transform:uppercase;font-family: sans-serif;margin-top:4px;}
+  /* SECTIONS */
+  .when-section{background:var(--mid-bg);padding:100px 80px;position:relative;}
+  .section-header{display:flex;align-items:flex-start;gap:32px;margin-bottom:56px;}
+  .section-number{font-size:6rem;font-weight:800;color:rgba(0,37,112,0.08);line-height:1;flex-shrink:0;letter-spacing:-4px;}
+  .section-title-group .label{font-family: sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--secondary);margin-bottom:8px;}
+  .section-title-group h2{font-size:2.6rem;font-weight:800;color:var(--primary);line-height:1.1;letter-spacing:-1px;}
+  .criteria-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;}
+  .criteria-card{background:white;padding:36px 28px;border-top:4px solid transparent;transition:border-color .25s,transform .25s;position:relative;overflow:hidden;}
+  .criteria-card:hover{border-color:var(--secondary);transform:translateY(-4px);}
+  .criteria-card::before{content:attr(data-num);position:absolute;top:12px;right:16px;font-size:3.5rem;font-weight:800;color:rgba(0,37,112,0.05);line-height:1;}
+  .criteria-icon{font-size:28px;margin-bottom:16px;}
+  .criteria-card h4{font-size:15px;font-weight:700;color:var(--primary);margin-bottom:10px;}
+  .criteria-card p{font-size:13.5px;color:var(--muted);line-height:1.6;font-family: sans-serif;font-weight:300;}
+  /* TYPES */
+  .types-section{background:var(--primary);padding:100px 80px;position:relative;overflow:hidden;}
+  .types-section::before{content:'TREATMENT';position:absolute;right:-40px;top:50%;transform:translateY(-50%) rotate(90deg);font-size:10rem;font-weight:800;color:rgba(255,255,255,0.025);pointer-events:none;letter-spacing:10px;}
+  .types-layout{display:grid;grid-template-columns:320px 1fr;gap:80px;align-items:start;}
+  .types-intro .label{font-family: sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--secondary);margin-bottom:16px;}
+  .types-intro h2{font-size:2.6rem;font-weight:800;color:white;line-height:1.1;letter-spacing:-1px;margin-bottom:24px;}
+  .types-intro p{color:rgba(255,255,255,0.5);font-size:14px;line-height:1.7;font-family: sans-serif;font-weight:300;}
+  .types-tabs{display:flex;flex-direction:column;gap:2px;}
+  .type-row{display:grid;grid-template-columns:60px 1fr;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.06);overflow:hidden;transition:all .25s;}
+  .type-row:hover{background:rgba(0,126,255,0.12);}
+  .type-num{background:rgba(0,126,255,0.15);display:flex;align-items:center;justify-content:center;font-family: sans-serif;font-size:12px;color:var(--secondary);font-weight:500;writing-mode:vertical-rl;letter-spacing:3px;}
+  .type-body{padding:28px 32px;}
+  .type-body h4{font-size:16px;font-weight:700;color:white;margin-bottom:10px;display:flex;align-items:center;gap:10px;}
+  .type-body h4 .tag{font-family: sans-serif;font-size:9px;letter-spacing:1.5px;background:rgba(0,126,255,0.25);color:var(--secondary);padding:3px 8px;text-transform:uppercase;}
+  .type-body p{font-size:13px;color:rgba(255,255,255,0.55);line-height:1.65;font-family: sans-serif;font-weight:300;}
+  /* RISKS */
+  .risks-section{background:#fff8f5;border-top:4px solid var(--warn);padding:80px;}
+  .risks-header{display:flex;align-items:center;gap:20px;margin-bottom:48px;}
+  .risks-header .icon{width:56px;height:56px;background:var(--warn);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0;}
+  .risks-header h2{font-size:2rem;font-weight:800;color:var(--warn);}
+  .risks-header p{color:var(--muted);font-size:14px;font-family: sans-serif;}
+  .risks-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;}
+  .risk-item{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;padding:24px 16px;background:white;border:1px solid rgba(224,90,0,0.15);}
+  .risk-item .risk-icon{font-size:24px;}
+  .risk-item p{font-size:12px;color:var(--text);font-weight:600;letter-spacing:.5px;text-transform:uppercase;font-family: sans-serif;}
+  /* TIMELINE */
+  .timeline-section{background:var(--dark-bg);padding:100px 80px;position:relative;overflow:hidden;}
+  .timeline-header{margin-bottom:64px;text-align:center;}
+  .timeline-header h2{font-size:3rem;font-weight:800;color:white;letter-spacing:-1.5px;line-height:1.1;}
+  .timeline-header h2 span{color:var(--secondary);}
+  .timeline-header p{color:rgba(255,255,255,0.45);font-family: sans-serif;font-size:12px;margin-top:12px;letter-spacing:2px;}
+  .timeline-track{display:grid;grid-template-columns:repeat(5,1fr);position:relative;max-width:1100px;margin:0 auto;}
+  .timeline-track::before{content:'';position:absolute;top:32px;left:10%;right:10%;height:2px;background:linear-gradient(to right,var(--secondary),rgba(0,126,255,0.2));}
+  .tl-step{display:flex;flex-direction:column;align-items:center;text-align:center;padding:0 12px;position:relative;}
+  .tl-dot{width:64px;height:64px;border-radius:50%;background:var(--primary);border:3px solid var(--secondary);display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:20px;position:relative;z-index:1;transition:transform .25s;}
+  .tl-step:hover .tl-dot{transform:scale(1.12);background:var(--secondary);}
+  .tl-duration{font-family: sans-serif;font-size:13px;font-weight:500;color:var(--secondary);margin-bottom:8px;letter-spacing:1px;}
+  .tl-title{font-size:13px;font-weight:700;color:white;letter-spacing:.3px;margin-bottom:8px;}
+  .tl-desc{font-size:11.5px;color:rgba(255,255,255,0.4);line-height:1.5;font-family: sans-serif;font-weight:300;}
+  /* OUTCOMES */
+  .outcomes-section{background:var(--secondary);padding:80px;display:grid;grid-template-columns:1fr 2fr;gap:80px;align-items:center;}
+  .outcomes-left h2{font-size:2.8rem;font-weight:800;color:white;letter-spacing:-1px;line-height:1.1;}
+  .outcomes-left p{color:rgba(255,255,255,0.7);font-size:14px;line-height:1.7;font-family: sans-serif;margin-top:16px;font-weight:300;}
+  .outcomes-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;}
+  .outcome-card{background:rgba(255,255,255,0.12);padding:32px 28px;transition:background .25s;}
+  .outcome-card:hover{background:rgba(255,255,255,0.2);}
+  .outcome-card h3{font-size:2.4rem;font-weight:800;color:white;letter-spacing:-1px;line-height:1;margin-bottom:6px;}
+  .outcome-card p{font-size:12px;color:rgba(255,255,255,0.65);font-family: sans-serif;text-transform:uppercase;letter-spacing:1px;}
+  /* CTA BAR */
+  .cta-bar{background:var(--primary);padding:60px 80px;display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;border-top:4px solid var(--secondary);}
+  .cta-bar h2{font-size:1.8rem;font-weight:800;color:white;}
+  .cta-bar p{color:rgba(255,255,255,0.5);font-size:13px;font-family: sans-serif;margin-top:4px;}
+  /* BACK LINK */
+  .back-link{display:inline-flex;align-items:center;gap:8px;color:rgba(255,255,255,0.5);font-family: sans-serif;font-size:11px;letter-spacing:2px;text-decoration:none;margin-bottom:40px;text-transform:uppercase;transition:color .2s;}
+  .back-link:hover{color:var(--secondary);}
+  .back-link svg{width:14px;height:14px;}
+  /* RESPONSIVE */
+  @media(max-width:900px){
+    .top-band{padding:10px 24px;display:none;}
+    .hero{grid-template-columns:1fr;padding:60px 24px 0;min-height:auto;}
+    .hero-visual{display:none;}
+    .when-section,.types-section,.risks-section,.timeline-section,.outcomes-section,.cta-bar{padding:60px 24px;}
+    .criteria-grid,.risks-grid{grid-template-columns:1fr 1fr;}
+    .types-layout{grid-template-columns:1fr;gap:40px;}
+    .timeline-track{grid-template-columns:1fr 1fr;gap:32px;}
+    .timeline-track::before{display:none;}
+    .outcomes-section{grid-template-columns:1fr;}
+    .outcomes-grid{grid-template-columns:1fr 1fr;}
+  }
+  @keyframes slideUp{from{opacity:0;transform:translateY(40px);}to{opacity:1;transform:translateY(0);}}
+  .hero-content>*{animation:slideUp .65s cubic-bezier(.22,.68,0,1.2) both;}
+  .hero-content>*:nth-child(1){animation-delay:.05s;}
+  .hero-content>*:nth-child(2){animation-delay:.15s;}
+  .hero-content>*:nth-child(3){animation-delay:.25s;}
+  .hero-content>*:nth-child(4){animation-delay:.35s;}
+  .hero-content>*:nth-child(5){animation-delay:.45s;}
+  .hero-content>*:nth-child(6){animation-delay:.55s;}
+</style>
+</head>
+<body>
+
+<!-- TOP BAND -->
+<div class="top-band">
+  <span>SV ORTHO CARE · BANGALORE</span>
+  <span>+91 8904954498 · <a href="index.html">← Back to Home</a></span>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <a href="javascript:history.back()" class="back-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      Back
+    </a>
+    <div class="hero-eyebrow">
+      <span class="badge">Orthopaedic Condition</span>
+      <span class="badge-outline" data-inject="bodyPart"></span>
+    </div>
+    <div class="hero-sub">Clinical Overview</div>
+    <h1 data-inject="title-h1">Condition<br><span class="outline-text">Name</span></h1>
+    <p class="hero-desc" data-inject="description">Loading description...</p>
+    <div class="hero-buttons">
+      <a href="https://web.docterz.in/#/clinics/5033/book_online_appointment" class="btn-solid">Book Consultation</a>
+      <a href="contact.html" class="btn-ghost">Contact Us</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-img-panel">
+      <!-- HERO IMAGE / CLINICAL DIAGRAM PANEL -->
+      <div class="hero-img-wrap" id="heroImgWrap">
+        <img id="heroImg" src="" alt="" data-inject="image">
+        <!-- Shown only when no image is available -->
+        <div class="hero-img-placeholder" id="heroImgPlaceholder" style="display:none;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <span>CLINICAL IMAGE</span>
+          <span style="font-size:10px;opacity:.6;" data-inject="imagePath">Image path</span>
+        </div>
+      </div>
+      <!-- QUICK METADATA BAR -->
+      <div class="hero-img-meta" data-inject="stats">
+        <div class="hero-img-meta-item">
+          <span class="m-val">Expert</span>
+          <span class="m-lbl">Specialist Care</span>
+        </div>
+        <div class="hero-img-meta-item">
+          <span class="m-val">AIIMS</span>
+          <span class="m-lbl">Trained Surgeon</span>
+        </div>
+        <div class="hero-img-meta-item">
+          <span class="m-val">8500+</span>
+          <span class="m-lbl">Procedures</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHEN IS TREATMENT NEEDED -->
+<section class="when-section">
+  <div class="section-header">
+    <div class="section-number">01</div>
+    <div class="section-title-group">
+      <div class="label">Indications</div>
+      <h2>When Is Treatment<br>Required?</h2>
+    </div>
+  </div>
+  <div class="criteria-grid" data-inject="symptoms">
+    <div class="criteria-card" data-num="A">
+      <div class="criteria-icon">🔍</div>
+      <h4>Loading...</h4>
+      <p>Please wait while content loads.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TREATMENT APPROACH -->
+<section class="types-section">
+  <div class="types-layout">
+    <div class="types-intro">
+      <div class="label">Our Approach</div>
+      <h2>Treatment Protocol</h2>
+      <p>Evidence-based, patient-centred care at SV Ortho Care.</p>
+    </div>
+    <div class="types-tabs" data-inject="procedure">
+      <div class="type-row">
+        <div class="type-num">01</div>
+        <div class="type-body"><h4>Loading</h4><p>Please wait...</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RISKS -->
+<section class="risks-section">
+  <div class="risks-header">
+    <div class="icon">⚠️</div>
+    <div>
+      <h2>Important Considerations</h2>
+      <p>Be well-informed before making any treatment decision</p>
+    </div>
+  </div>
+  <div class="risks-grid">
+    <div class="risk-item"><div class="risk-icon">🏥</div><p>Specialist Evaluation</p></div>
+    <div class="risk-item"><div class="risk-icon">📋</div><p>Medical History</p></div>
+    <div class="risk-item"><div class="risk-icon">🔬</div><p>Diagnostic Imaging</p></div>
+    <div class="risk-item"><div class="risk-icon">💊</div><p>Medication Review</p></div>
+    <div class="risk-item"><div class="risk-icon">🤝</div><p>Informed Consent</p></div>
+  </div>
+</section>
+
+<!-- RECOVERY TIMELINE -->
+<section class="timeline-section">
+  <div class="timeline-header">
+    <p style="font-family: sans-serif;font-size:11px;letter-spacing:3px;color:var(--secondary);text-transform:uppercase;margin-bottom:12px;">Patient Journey</p>
+    <h2>Your Recovery <span>Timeline</span></h2>
+    <p>Typical milestones from diagnosis to full recovery</p>
+  </div>
+  <div class="timeline-track">
+    <div class="tl-step"><div class="tl-dot">🔬</div><div class="tl-duration">Day 1</div><div class="tl-title">Diagnosis</div><div class="tl-desc">Comprehensive clinical assessment and imaging.</div></div>
+    <div class="tl-step"><div class="tl-dot">📋</div><div class="tl-duration">Week 1</div><div class="tl-title">Treatment Plan</div><div class="tl-desc">Personalised plan prepared by Dr. Vijay Kumar D.</div></div>
+    <div class="tl-step"><div class="tl-dot">⚕️</div><div class="tl-duration">Week 2–4</div><div class="tl-title">Intervention</div><div class="tl-desc">Conservative or surgical treatment begins.</div></div>
+    <div class="tl-step"><div class="tl-dot">🏋️</div><div class="tl-duration">Month 1–3</div><div class="tl-title">Rehabilitation</div><div class="tl-desc">Structured physiotherapy and progress monitoring.</div></div>
+    <div class="tl-step"><div class="tl-dot">🏅</div><div class="tl-duration">Month 3–6</div><div class="tl-title">Full Recovery</div><div class="tl-desc">Return to normal activities and sport.</div></div>
+  </div>
+</section>
+
+<!-- OUTCOMES -->
+<section class="outcomes-section">
+  <div class="outcomes-left">
+    <h2>Expected Outcomes</h2>
+    <p>With expert care and proper rehabilitation, most patients achieve excellent results and return to their pre-injury lifestyle.</p>
+  </div>
+  <div class="outcomes-grid">
+    <div class="outcome-card"><h3>95%+</h3><p>Patient satisfaction rate</p></div>
+    <div class="outcome-card"><h3>16+</h3><p>Years of specialist experience</p></div>
+    <div class="outcome-card"><h3>8500+</h3><p>Successful procedures</p></div>
+    <div class="outcome-card"><h3>AIIMS</h3><p>Trained surgeon</p></div>
+  </div>
+</section>
+
+<!-- CTA BAR -->
+<div class="cta-bar">
+  <div>
+    <h2>Get Expert Medical Advice</h2>
+    <p>Dr. Vijay Kumar D · SV Ortho Care · Indiranagar, Bengaluru</p>
+  </div>
+  <div style="display:flex;gap:12px;flex-wrap:wrap;">
+    <a href="https://web.docterz.in/#/clinics/5033/book_online_appointment" class="btn-solid">Book Appointment</a>
+    <a href="contact.html" class="btn-ghost">Contact Us</a>
+  </div>
+</div>
+
+</body>
+</html>

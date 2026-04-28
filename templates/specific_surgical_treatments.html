@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-inject="title">Surgical Treatment | SV Ortho Care</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--primary:#002570;--secondary:#007eff;--light-blue:#e8f3ff;--white:#ffffff;--off-white:#f7f9fc;--text-dark:#0a1628;--text-mid:#3a4a6b;--accent-line:rgba(0,126,255,0.2);}
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family: sans-serif;background:var(--off-white);color:var(--text-dark);overflow-x:hidden;}
+  /* TOP BAND */
+  .top-band{background:var(--secondary);color:white;padding:10px 80px;display:flex;justify-content:space-between;align-items:center;font-size:11px;letter-spacing:1.5px;}
+  .top-band a{color:white;text-decoration:none;}
+  /* HERO */
+  .hero{background:var(--primary);min-height:92vh;display:grid;grid-template-columns:1fr 1fr;position:relative;overflow:hidden;}
+  .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 80% at 70% 50%,rgba(0,126,255,0.18) 0%,transparent 70%),repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(255,255,255,0.02) 40px,rgba(255,255,255,0.02) 41px);}
+  .hero-left{display:flex;flex-direction:column;justify-content:center;padding:80px 60px 80px 80px;position:relative;z-index:2;}
+  .breadcrumb{display:flex;align-items:center;gap:8px;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--secondary);margin-bottom:32px;font-weight:500;}
+  .breadcrumb a{color:var(--secondary);text-decoration:none;}
+  .breadcrumb span{color:rgba(255,255,255,0.35);}
+  .hero-tag{display:inline-block;background:rgba(0,126,255,0.2);border:1px solid rgba(0,126,255,0.4);color:#7dc4ff;font-size:11px;letter-spacing:2px;text-transform:uppercase;padding:6px 16px;border-radius:2px;margin-bottom:24px;width:fit-content;}
+  .hero h1{font-family: sans-serif;font-size:clamp(3rem,5vw,5.5rem);font-weight:900;color:var(--white);line-height:1.05;margin-bottom:10px;}
+  .hero h1 em{font-style:normal;}
+  .hero-subtitle{font-size:13px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:32px;font-weight:300;}
+  .hero-desc{font-size:16px;line-height:1.75;color:rgba(255,255,255,0.65);max-width:440px;margin-bottom:48px;font-weight:300;}
+  .hero-cta{display:flex;gap:16px;flex-wrap:wrap;}
+  .btn-primary{background:var(--secondary);color:white;padding:14px 32px;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;font-weight:500;border:none;text-decoration:none;transition:all .3s;display:inline-block;}
+  .btn-primary:hover{background:#0068d6;transform:translateY(-2px);}
+  .btn-outline{background:transparent;color:rgba(255,255,255,0.7);padding:14px 32px;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;font-weight:500;border:1px solid rgba(255,255,255,0.25);text-decoration:none;transition:all .3s;display:inline-block;}
+  .btn-outline:hover{border-color:var(--secondary);color:white;}
+  /* HERO RIGHT — IMAGE PANEL */
+  .hero-right{position:relative;z-index:2;display:flex;align-items:stretch;}
+  .hero-visual{position:relative;width:100%;height:100%;display:flex;flex-direction:column;}
+  /* ===== HERO IMAGE AREA ===== */
+  .hero-img-container{flex:1;position:relative;overflow:hidden;min-height:400px;}
+  .hero-img{width:100%;height:100%;object-fit:cover;opacity:0.55;mix-blend-mode:luminosity;transition:opacity .4s;}
+  .hero-img.loaded{opacity:0.65;}
+  .hero-img-overlay{position:absolute;inset:0;background:linear-gradient(to right,var(--primary) 0%,transparent 40%,transparent 70%,var(--primary) 100%);}
+  /* Placeholder shown when image unavailable */
+  .hero-img-placeholder{position:absolute;inset:0;display:none;flex-direction:column;align-items:center;justify-content:center;gap:16px;background:rgba(0,10,40,0.6);border-left:2px dashed rgba(0,126,255,0.3);}
+  .hero-img-placeholder.visible{display:flex;}
+  .hero-img-placeholder svg{width:60px;height:60px;color:rgba(0,126,255,0.4);}
+  .hero-img-placeholder .ph-label{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:rgba(0,126,255,0.5);}
+  .hero-img-placeholder .ph-path{font-size:11px;color:rgba(255,255,255,0.25);font-family: sans-serif;max-width:200px;text-align:center;word-break:break-all;}
+  /* STAT CARDS */
+  .stat-cards{background:rgba(0,10,40,0.7);backdrop-filter:blur(12px);border-top:1px solid rgba(0,126,255,0.2);padding:24px 32px;display:flex;gap:24px;flex-wrap:wrap;}
+  .stat-card{display:flex;flex-direction:column;min-width:100px;}
+  .stat-num{font-family: sans-serif;font-size:1.6rem;font-weight:700;color:var(--secondary);line-height:1;margin-bottom:4px;}
+  .stat-label{font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:1px;text-transform:uppercase;}
+  /* WHAT IS SECTION */
+  .section-what{background:var(--white);display:grid;grid-template-columns:1fr 1fr;min-height:60vh;}
+  .section-what-left{background:var(--primary);padding:80px;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden;}
+  .section-what-left::after{content:'Rx';position:absolute;right:-20px;bottom:-20px;font-family: sans-serif;font-size:180px;font-weight:900;color:rgba(255,255,255,0.03);line-height:1;pointer-events:none;}
+  .section-label{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--secondary);margin-bottom:20px;font-weight:500;}
+  .section-what-left h2{font-family: sans-serif;font-size:2.8rem;font-weight:700;color:white;line-height:1.2;margin-bottom:24px;}
+  .section-what-left p{color:rgba(255,255,255,0.65);font-size:15px;line-height:1.8;font-weight:300;}
+  .section-what-right{padding:80px;display:flex;flex-direction:column;justify-content:center;}
+  .section-what-right h3{font-family: sans-serif;font-size:1.6rem;color:var(--primary);margin-bottom:28px;font-weight:700;}
+  .symptom-list{list-style:none;display:flex;flex-direction:column;gap:16px;}
+  .symptom-list li{display:flex;align-items:flex-start;gap:16px;font-size:15px;color:var(--text-mid);line-height:1.55;}
+  .symptom-list li::before{content:'';flex-shrink:0;width:6px;height:6px;border-radius:50%;background:var(--secondary);margin-top:8px;}
+  .important-note{background:rgba(0,126,255,0.08);border:1px solid rgba(0,126,255,0.25);border-left:4px solid var(--secondary);padding:20px 24px;margin-top:48px;border-radius:2px;}
+  .important-note strong{color:var(--primary);font-size:12px;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;}
+  .important-note p{color:var(--text-mid);font-size:14px;line-height:1.6;margin:0;}
+  /* STAGES / STEPS */
+  .stages-section{background:var(--off-white);padding:100px 80px;position:relative;overflow:hidden;}
+  .stages-section::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:linear-gradient(to bottom,var(--secondary),var(--primary));}
+  .stages-header{text-align:center;margin-bottom:64px;}
+  .stages-header h2{font-family: sans-serif;font-size:3rem;color:var(--primary);font-weight:900;}
+  .stages-header p{color:var(--text-mid);font-size:15px;margin-top:12px;font-weight:300;}
+  .stages-grid{display:grid;grid-template-columns:repeat(5,1fr); gap:0; margin:0 auto;position:relative;}
+  .stages-grid::before{content:'';position:absolute;top:48px;left:12.5%;right:12.5%;height:2px;background:linear-gradient(to right,var(--secondary),var(--primary));z-index:0;}
+  .stage-item{padding:0 24px;text-align:center;position:relative;z-index:1;}
+  .stage-circle{width:96px;height:96px;border-radius:50%;background:var(--white);border:3px solid var(--secondary);display:flex;align-items:center;justify-content:center;margin:0 auto 24px;transition:all .3s;}
+  .stage-item:hover .stage-circle{background:var(--primary);border-color:var(--primary);transform:scale(1.08);}
+  .stage-num{font-family: sans-serif;font-size:1.8rem;font-weight:900;color:var(--primary);transition:color .3s;}
+  .stage-item:hover .stage-num{color:white;}
+  .stage-title{font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--secondary);font-weight:500;margin-bottom:10px;}
+  .stage-desc{font-size:13.5px;color:var(--text-mid);line-height:1.6;font-weight:300;}
+  /* TREATMENT STEPS */
+  .treatment-section{background:var(--primary);padding:100px 80px;position:relative;overflow:hidden;}
+  .treatment-section::after{content:'';position:absolute;top:-100px;right:-100px;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(0,126,255,0.15) 0%,transparent 70%);pointer-events:none;}
+  .treatment-header{max-width:600px;margin-bottom:64px;}
+  .treatment-header h2{font-family: sans-serif;font-size:3rem;color:white;font-weight:900;line-height:1.15;margin-bottom:16px;}
+  .treatment-header h2 span{color:var(--secondary);font-style:italic;}
+  .treatment-header p{color:rgba(255,255,255,0.55);font-size:15px;line-height:1.7;font-weight:300;}
+  .treatment-steps{display:grid;grid-template-columns:repeat(5,1fr);gap:2px;position:relative;z-index:2;}
+  .step-card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);padding:48px 36px;transition:all .3s;position:relative;overflow:hidden;}
+  .step-card::before{content:'';position:absolute;bottom:0;left:0;width:100%;height:3px;background:var(--secondary);transform:scaleX(0);transition:transform .3s;transform-origin:left;}
+  .step-card:hover{background:rgba(0,126,255,0.1);}
+  .step-card:hover::before{transform:scaleX(1);}
+  .step-num{font-family: sans-serif;font-size:4rem;font-weight:900;color:rgba(255,255,255,0.06);line-height:1;margin-bottom:16px;}
+  .step-icon{width:48px;height:48px;background:rgba(0,126,255,0.2);border-radius:4px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;font-size:22px;}
+  .step-card h4{font-size:14px;letter-spacing:1.5px;text-transform:uppercase;color:var(--secondary);font-weight:500;margin-bottom:12px;}
+  .step-card p{font-size:14.5px;color:rgba(255,255,255,0.6);line-height:1.65;font-weight:300;}
+  /* WHY CHOOSE */
+  .why-section{background:var(--white);padding:100px 80px;display:grid;grid-template-columns:1fr 1.2fr;gap:80px;align-items:center;}
+  .why-left h2{font-family: sans-serif;font-size:2.8rem;color:var(--primary);font-weight:900;line-height:1.2;margin-bottom:20px;}
+  .why-left p{color:var(--text-mid);font-size:15px;line-height:1.8;margin-bottom:36px;font-weight:300;}
+  .why-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+  .why-card{background:var(--off-white);border-left:3px solid var(--secondary);padding:24px 20px;transition:transform .2s;}
+  .why-card:hover{transform:translateX(4px);}
+  .why-card-icon{font-size:24px;margin-bottom:10px;}
+  .why-card h4{font-size:13px;font-weight:600;color:var(--primary);margin-bottom:6px;letter-spacing:.5px;text-transform:uppercase;}
+  .why-card p{font-size:13px;color:var(--text-mid);line-height:1.5;margin:0;}
+  /* CTA */
+  .cta-section{background:linear-gradient(135deg,var(--secondary) 0%,var(--primary) 100%);padding:80px;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;}
+  .cta-text h2{font-family: sans-serif;font-size:2.2rem;color:white;font-weight:700;margin-bottom:8px;}
+  .cta-text p{color:rgba(255,255,255,0.7);font-size:15px;font-weight:300;}
+  .cta-actions{display:flex;gap:16px;flex-wrap:wrap;}
+  .btn-white{background:white;color:var(--primary);padding:16px 36px;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;font-weight:600;border:none;text-decoration:none;transition:all .3s;display:inline-block;}
+  .btn-white:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.2);}
+  /* RESPONSIVE */
+  @media(max-width:900px){
+    .top-band{display:none;}
+    .hero,.section-what,.why-section{grid-template-columns:1fr;}
+    .hero-right{min-height:300px;}
+    .hero-left{padding:60px 32px;}
+    .section-what-left,.section-what-right,.stages-section,.treatment-section,.why-section{padding:60px 32px;}
+    .stages-grid{grid-template-columns:1fr 1fr;}
+    .stages-grid::before{display:none;}
+    .treatment-steps{grid-template-columns:1fr;gap:2px;}
+    .stat-cards{flex-wrap:wrap;}
+    .cta-section{padding:60px 32px;}
+  }
+  @keyframes fadeUp{from{opacity:0;transform:translateY(30px);}to{opacity:1;transform:translateY(0);}}
+  .hero-left>*{animation:fadeUp .7s ease both;}
+  .hero-left>*:nth-child(1){animation-delay:.1s;}
+  .hero-left>*:nth-child(2){animation-delay:.2s;}
+  .hero-left>*:nth-child(3){animation-delay:.3s;}
+  .hero-left>*:nth-child(4){animation-delay:.4s;}
+  .hero-left>*:nth-child(5){animation-delay:.5s;}
+  .hero-left>*:nth-child(6){animation-delay:.6s;}
+</style>
+</head>
+<body>
+
+<!-- TOP BAND -->
+<div class="top-band">
+  <span>SV ORTHO CARE · BANGALORE</span>
+  <span>+91 8904954498 · <a href="index.html">← Back to Home</a></span>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span>/</span> Surgical Treatments
+      <span>/</span> <span data-inject="bodyPart">Category</span>
+    </div>
+    <span class="hero-tag">Surgical Treatment</span>
+    <h1 data-inject="title-h1">Surgical<br>Procedure</h1>
+    <p class="hero-subtitle" data-inject="bodyPartLabel">Subspecialty · Category</p>
+    <p class="hero-desc" data-inject="description">Loading description...</p>
+    <div class="hero-cta">
+      <a href="https://web.docterz.in/#/clinics/5033/book_online_appointment" class="btn-primary">Book Appointment</a>
+      <a href="contact.html" class="btn-outline">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- HERO RIGHT: IMAGE PANEL -->
+  <div class="hero-right">
+    <div class="hero-visual">
+      <div class="hero-img-container" id="heroImgContainer">
+        <img id="heroImg" src="" alt="" class="hero-img" data-inject="image">
+        <div class="hero-img-overlay"></div>
+        <!-- Placeholder shown when image is missing -->
+        <div class="hero-img-placeholder" id="heroImgPlaceholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <span class="ph-label">Clinical Image</span>
+          <span class="ph-path" data-inject="imagePath">src/assets/images/...</span>
+        </div>
+      </div>
+      <!-- STATS BAR at bottom of image -->
+      <div class="stat-cards" data-inject="stats">
+        <div class="stat-card">
+          <div class="stat-num">Expert</div>
+          <div class="stat-label">Specialist Care</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">AIIMS</div>
+          <div class="stat-label">Trained Surgeon</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">8500+</div>
+          <div class="stat-label">Procedures Done</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT IS / OVERVIEW -->
+<section class="section-what">
+  <div class="section-what-left">
+    <p class="section-label">Understanding the procedure</p>
+    <h2 data-inject="what-title">About This Surgery</h2>
+    <p data-inject="description2">Detailed overview of this surgical procedure and its clinical significance.</p>
+  </div>
+  <div class="section-what-right">
+    <h3>Indications &amp; Candidacy</h3>
+    <ul class="symptom-list" data-inject="symptoms">
+      <li>Loading indications...</li>
+    </ul>
+    <div class="important-note">
+      <strong>⚕ Clinical Note</strong>
+      <p>All surgical decisions are made after thorough clinical evaluation by Dr. Vijay Kumar D. Every patient receives a personalised treatment plan.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROCEDURE STEPS -->
+<section class="stages-section">
+  <div class="stages-header">
+    <p class="section-label" style="text-align:center;">Surgical Protocol</p>
+    <h2>How It's Done</h2>
+    <p>Step-by-step overview of our surgical approach</p>
+  </div>
+  <div class="stages-grid" data-inject="procedure-stages">
+    <div class="stage-item">
+      <div class="stage-circle"><span class="stage-num">1</span></div>
+      <div class="stage-title">Assessment</div>
+      <p class="stage-desc">Comprehensive clinical evaluation and imaging.</p>
+    </div>
+    <div class="stage-item">
+      <div class="stage-circle"><span class="stage-num">2</span></div>
+      <div class="stage-title">Preparation</div>
+      <p class="stage-desc">Pre-operative assessment and surgical planning.</p>
+    </div>
+    <div class="stage-item">
+      <div class="stage-circle"><span class="stage-num">3</span></div>
+      <div class="stage-title">Surgery</div>
+      <p class="stage-desc">Precision surgery using latest techniques.</p>
+    </div>
+    <div class="stage-item">
+      <div class="stage-circle"><span class="stage-num">4</span></div>
+      <div class="stage-title">Recovery</div>
+      <p class="stage-desc">Structured rehabilitation for optimal outcomes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TREATMENT DETAIL -->
+<section class="treatment-section">
+  <div class="treatment-header">
+    <p class="section-label">Our Surgical Approach</p>
+    <h2>Precision Surgery at <span>SV Ortho Care</span></h2>
+    <p>Led by Dr. Vijay Kumar D with 16+ years of orthopaedic surgical expertise and 8500+ successful procedures.</p>
+  </div>
+  <div class="treatment-steps" data-inject="procedure">
+    <div class="step-card">
+      <div class="step-num">01</div>
+      <div class="step-icon">🔬</div>
+      <h4>Pre-Operative</h4>
+      <p>Detailed assessment and surgical plan preparation.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">02</div>
+      <div class="step-icon">⚕️</div>
+      <h4>Procedure</h4>
+      <p>Precision surgery with advanced instruments.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">03</div>
+      <div class="step-icon">🏋️</div>
+      <h4>Rehabilitation</h4>
+      <p>Structured recovery programme for best outcomes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE -->
+<section class="why-section">
+  <div class="why-left">
+    <p class="section-label">Why SV Ortho Care</p>
+    <h2>Expert Care You Can Trust</h2>
+    <p>Led by Dr. Vijay Kumar D, a highly experienced orthopaedic specialist trained at AIIMS Delhi, with a commitment to patient-first surgical outcomes.</p>
+    <a href="https://web.docterz.in/#/clinics/5033/book_online_appointment" class="btn-primary">Book a Consultation</a>
+  </div>
+  <div class="why-grid">
+    <div class="why-card"><div class="why-card-icon">👨‍⚕️</div><h4>Expert Specialist</h4><p>Dr. Vijay Kumar D — MBBS MS (AIIMS, Delhi)</p></div>
+    <div class="why-card"><div class="why-card-icon">🔬</div><h4>Advanced Diagnostics</h4><p>State-of-the-art imaging and diagnostic tools</p></div>
+    <div class="why-card"><div class="why-card-icon">🤖</div><h4>Robotic Precision</h4><p>Sub-millimeter accuracy with robotic assistance</p></div>
+    <div class="why-card"><div class="why-card-icon">🏆</div><h4>Proven Outcomes</h4><p>95%+ patient satisfaction, 8500+ procedures</p></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-text">
+    <h2>Ready to Begin Your Recovery?</h2>
+    <p>Our orthopaedic specialists are here to evaluate your condition and build a personalised treatment plan.</p>
+  </div>
+  <div class="cta-actions">
+    <a href="https://web.docterz.in/#/clinics/5033/book_online_appointment" class="btn-white">Book Appointment</a>
+    <a href="contact.html" style="background:transparent;color:white;border:1px solid rgba(255,255,255,0.4);padding:16px 36px;font-size:13px;text-decoration:none;display:inline-block;transition:all .3s;" onmouseover="this.style.borderColor='white'" onmouseout="this.style.borderColor='rgba(255,255,255,0.4)'">Contact Us</a>
+  </div>
+</section>
+
+</body>
+</html>
