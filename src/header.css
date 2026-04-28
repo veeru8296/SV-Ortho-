@@ -290,7 +290,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: color 0.3s, transform 0.4s ease;
+  transition: color 0.3s;
 }
 
 /* .header-icon{
@@ -299,7 +299,6 @@ hr {
 
 .offcanvas-close:hover {
   color: #fff;
-  transform: rotate(90deg);
 }
 
 .offcanvas-gallery {
