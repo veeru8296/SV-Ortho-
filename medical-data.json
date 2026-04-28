@@ -6,7 +6,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "ankle-foot",
       "slug": "avascular-necrosis",
-      "imagePath": "src/orthopaedic conditions/ankle foot/Avascular Necrosis.jpg",
+      "imagePath": "src/orthopaedic-conditions/ankle foot/Avascular Necrosis.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -63,7 +63,7 @@
   "category": "Orthopaedic Conditions",
   "bodyPart": "elbow",
   "slug": "pain-management",
-  "imagePath": "src/orthopaedic conditions/elbow/pain management.jpg",
+  "imagePath": "src/orthopaedic-conditions/elbow/pain management.jpg",
   "description": "Pain is an unpleasant sensory and emotional experience associated with actual or potential tissue damage. At SV Ortho Care, we provide comprehensive management for both acute and chronic pain, focusing on early diagnosis and interventional techniques to restore mobility and quality of life.",
   "symptoms": [
     "Persistent physical pain affecting daily productivity",
@@ -120,7 +120,7 @@
   "category": "Orthopaedic Conditions",
   "bodyPart": "elbow",
   "slug": "pediatric-orthopaedics",
-  "imagePath": "src/orthopaedic conditions/elbow/pediatric Orthopaedics.jpg",
+  "imagePath": "src/orthopaedic-conditions/elbow/pediatric Orthopaedics.jpg",
   "description": "Pediatric Orthopaedics at SV Ortho Care focuses on treating musculoskeletal issues in children, ranging from congenital deformities like Club Foot to neuromuscular conditions like Cerebral Palsy. We offer a blend of non-surgical gold-standard treatments and advanced reconstructive surgeries to ensure optimal growth and mobility.",
   "symptoms": [
     "Muscle tightness or spasticity in limbs",
@@ -177,7 +177,7 @@
   "category": "Orthopaedic Conditions",
   "bodyPart": "elbow",
   "slug": "sports-medicine-rehabilitation",
-  "imagePath": "src/orthopaedic conditions/elbow/sports medicine $ Rehabilation.jpg",
+  "imagePath": "src/orthopaedic-conditions/elbow/sports medicine $ Rehabilation.jpg",
   "description": "SV Ortho Care offers world-class sports medicine and advanced rehabilitation services. Under the guidance of Dr. Vijay Kumar D, we provide integrated care using cutting-edge tools like cryotherapy, biomechanical video analysis, and personalized exercise prescriptions to help athletes and patients achieve optimal performance and recovery.",
   "symptoms": [
     "Acute sports injuries (sprains, strains, or tears)",
@@ -234,7 +234,7 @@
   "category": "Orthopaedic Conditions",
   "bodyPart": "elbow",
   "slug": "wrist-elbow",
-  "imagePath": "src/orthopaedic conditions/elbow/wrist and elbow.jpg",
+  "imagePath": "src/orthopaedic-conditions/elbow/wrist and elbow.jpg",
   "description": "The wrists and elbows are vital for daily tasks, from lifting objects to fine motor movements. At SV Ortho Care, Dr. Vijay Kumar D specializes in treating a wide range of orthopedic conditions and sports injuries affecting these joints, utilizing the latest techniques and personalized recovery plans to restore your active lifestyle.",
   "symptoms": [
     "Pain during simple tasks like lifting or gripping",
@@ -291,7 +291,7 @@
   "category": "Orthopaedic Conditions",
   "bodyPart": "hip",
   "slug": "arthritis",
-  "imagePath": "src/orthopaedic conditions/hip/Arthritis.jpg",
+  "imagePath": "src/orthopaedic-conditions/hip/Arthritis.jpg",
   "description": "Arthritis, particularly Rheumatoid Arthritis (RA), is a systemic autoimmune disease that attacks the joint lining (synovium), leading to inflammation and potential joint destruction. Under the expertise of Dr. Vijay Kumar D, SV Ortho Care provides comprehensive management for RA, Gout, and Seronegative Arthropathies to prevent deformity and preserve long-term mobility.",
   "symptoms": [
     "Persistent joint pain, especially in small joints",
@@ -348,7 +348,7 @@
   "category": "Orthopaedic Conditions",
   "bodyPart": "hip",
   "slug": "foot-and-ankle",
-  "imagePath": "src/orthopaedic conditions/hip/foot and ankle.jpg",
+  "imagePath": "src/orthopaedic-conditions/hip/foot and ankle.jpg",
   "description": "SV Ortho Care's Specialized Foot & Ankle Surgery Department, led by Dr. Vijay Kumar D, is dedicated to the diagnosis and recovery of complex foot conditions. We offer a patient-centered approach ranging from conservative orthotic treatments to advanced reconstructive and revision surgeries to ensure long-term mobility.",
   "symptoms": [
     "Painful structural deformities like bunions or flat feet",
@@ -405,7 +405,7 @@
   "category": "Orthopaedic Conditions",
   "bodyPart": "hip",
   "slug": "robotic-hip-replacement",
-  "imagePath": "src/orthopaedic conditions/hip/robotic hip replacement.jpg",
+  "imagePath": "src/orthopaedic-conditions/hip/robotic hip replacement.jpg",
   "description": "Robotic Hip Replacement is a state-of-the-art surgical procedure that utilizes advanced robotic-arm technology to assist surgeons in performing total hip arthroplasty with unparalleled precision. This technology allows for personalized pre-operative planning and highly accurate implant positioning, leading to better joint stability, more natural movement, and a faster return to daily activities.",
   "symptoms": [
     "Severe hip pain that limits daily activities like walking or bending",
@@ -462,7 +462,7 @@
   "category": "Orthopaedic Conditions",
   "bodyPart": "knee",
   "slug": "acl-tear",
-  "imagePath": "src/orthopaedic conditions/knee/acl-tear.jpg",
+  "imagePath": "src/orthopaedic-conditions/knee/acl-tear.jpg",
   "description": "The Anterior Cruciate Ligament (ACL) is a primary stabilizer of the knee joint, essential for twisting and pivoting movements. Injuries often result from sports activities or accidents, leading to a sensation of the knee 'giving way.' At SV Ortho Care, we focus on restoring stability to prevent secondary damage to the meniscus and cartilage.",
   "symptoms": [
     "Knee pain and swelling immediately following an injury",
@@ -519,7 +519,7 @@
   "category": "Orthopaedic Conditions",
   "bodyPart": "knee",
   "slug": "cartilage-defect",
-  "imagePath": "src/orthopaedic conditions/knee/Cartilage Defect.jpg",
+  "imagePath": "src/orthopaedic-conditions/knee/Cartilage Defect.jpg",
   "description": "Cartilage is the smooth, friction-free tissue that covers bone ends, but it has a very limited ability to heal itself. At SV Ortho Care, Dr. Vijay Kumar D utilizes joint preservation biotechnology and advanced cell therapies to repair cartilage defects, preventing the progression to severe arthritis and avoiding the need for total joint replacement.",
   "symptoms": [
     "Persistent joint pain, even at rest",
@@ -576,7 +576,7 @@
   "category": "Orthopaedic Conditions",
   "bodyPart": "knee",
   "slug": "gcmd",
-  "imagePath": "src/orthopaedic conditions/knee/GCMD.jpg",
+  "imagePath": "src/orthopaedic-conditions/knee/GCMD.jpg",
   "description": "Ganglion Cyst and Mucoid Degeneration (GCMD) involves the development of jelly-like fluid swellings or tissue changes within the knee joint, specifically affecting the Anterior Cruciate Ligament (ACL). While often asymptomatic on MRI, it can cause significant pain and restricted movement, which Dr. Vijay Kumar D treats using advanced arthroscopic techniques.",
   "symptoms": [
     "Difficulty fully bending or straightening the knee",
@@ -690,7 +690,7 @@
   "category": "Orthopaedic Conditions",
   "bodyPart": "knee",
   "slug": "knee-pain",
-  "imagePath": "src/orthopaedic conditions/knee/Knee Pain.jpg",
+  "imagePath": "src/orthopaedic-conditions/knee/Knee Pain.jpg",
   "description": "Understanding knee symptoms early is vital for effective treatment. At SV Ortho Care, we categorize knee pain by severity—ranging from mild discomfort that requires rest to acute instability or inability to walk, which demands immediate expert consultation to rule out fractures or ligament tears.",
   "symptoms": [
     "Complete inability to bear weight on the leg",
@@ -747,7 +747,7 @@
   "category": "Orthopaedic Conditions",
   "bodyPart": "knee",
   "slug": "loose-body",
-  "imagePath": "src/orthopaedic conditions/knee/Loose Body.jpg",
+  "imagePath": "src/orthopaedic-conditions/knee/Loose Body.jpg",
   "description": "Loose bodies are small fragments of bone or cartilage that break off and float freely within the knee joint due to injury or arthritis. At SV Ortho Care, we specialize in identifying these fragments and utilizing minimally invasive arthroscopy to either reattach or remove them, restoring smooth joint movement and relieving pain.",
   "symptoms": [
     "Sudden 'locking' or catching sensation in the knee",
@@ -804,7 +804,7 @@
   "category": "Orthopaedic Conditions",
   "bodyPart": "knee",
   "slug": "meniscus-tear",
-  "imagePath": "src/orthopaedic conditions/knee/Meniscus Tear.jpg",
+  "imagePath": "src/orthopaedic-conditions/knee/Meniscus Tear.jpg",
   "description": "The meniscus is a crescent-shaped fibrocartilage pad that acts as a natural shock absorber between the knee bones. Tears can occur from sudden twisting or age-related wear, leading to pain and potential arthritis. At SV Ortho Care, we specialize in advanced arthroscopic meniscus repair and transplantation to preserve the joint's natural cushioning.",
   "symptoms": [
     "A noticeable 'popping' sensation during the initial injury",
@@ -861,7 +861,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "knee",
       "slug": "multi-ligament-injury",
-      "imagePath": "src/orthopaedic conditions/knee/Multi Ligament Injury.jpg",
+      "imagePath": "src/orthopaedic-conditions/knee/Multi Ligament Injury.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -975,7 +975,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "knee",
       "slug": "patella-instability",
-      "imagePath": "src/orthopaedic conditions/knee/Patella Instability.jpg",
+      "imagePath": "src/orthopaedic-conditions/knee/Patella Instability.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -1032,7 +1032,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "knee",
       "slug": "pcl",
-      "imagePath": "src/orthopaedic conditions/knee/PCL.jpg",
+      "imagePath": "src/orthopaedic-conditions/knee/PCL.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -1089,7 +1089,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "knee",
       "slug": "stiff-knee",
-      "imagePath": "src/orthopaedic conditions/knee/Stiff Knee.jpg",
+      "imagePath": "src/orthopaedic-conditions/knee/Stiff Knee.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -1146,7 +1146,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "knee",
       "slug": "synovitis",
-      "imagePath": "src/orthopaedic conditions/knee/Synovitis.jpg",
+      "imagePath": "src/orthopaedic-conditions/knee/Synovitis.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -1203,7 +1203,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "knee",
       "slug": "total-knee-replacement",
-      "imagePath": "src/orthopaedic conditions/knee/Total Knee Replacement.jpg",
+      "imagePath": "src/orthopaedic-conditions/knee/Total Knee Replacement.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -1260,7 +1260,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "shoulder",
       "slug": "frozen-shoulder",
-      "imagePath": "src/orthopaedic conditions/shoulder/frozen shoulder.jpg",
+      "imagePath": "src/orthopaedic-conditions/shoulder/frozen shoulder.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -1317,7 +1317,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "shoulder",
       "slug": "impingement-syndrome",
-      "imagePath": "src/orthopaedic conditions/shoulder/impingement Syndrome.jpg",
+      "imagePath": "src/orthopaedic-conditions/shoulder/impingement Syndrome.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -1374,7 +1374,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "shoulder",
       "slug": "rotator-cuff-tear",
-      "imagePath": "src/orthopaedic conditions/shoulder/rotator cuff tear.jpg",
+      "imagePath": "src/orthopaedic-conditions/shoulder/rotator cuff tear.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -1431,7 +1431,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "shoulder",
       "slug": "shoulder-dislocations-and-instability",
-      "imagePath": "src/orthopaedic conditions/shoulder/Shoulder Dislocations and instability.jpg",
+      "imagePath": "src/orthopaedic-conditions/shoulder/Shoulder Dislocations and instability.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -1488,7 +1488,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "shoulder",
       "slug": "structure-of-shoulder",
-      "imagePath": "src/orthopaedic conditions/shoulder/structure of shoulder.jpg",
+      "imagePath": "src/orthopaedic-conditions/shoulder/structure of shoulder.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -1545,7 +1545,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "spine",
       "slug": "arthritis-in-spine",
-      "imagePath": "src/orthopaedic conditions/spine/Arthritis in Spine.jpg",
+      "imagePath": "src/orthopaedic-conditions/spine/Arthritis in Spine.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -1602,7 +1602,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "spine",
       "slug": "back-pain",
-      "imagePath": "src/orthopaedic conditions/spine/Back Pain.jpg",
+      "imagePath": "src/orthopaedic-conditions/spine/Back Pain.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -1659,7 +1659,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "spine",
       "slug": "disc-prolapse",
-      "imagePath": "src/orthopaedic conditions/spine/Disc Prolapse.jpg",
+      "imagePath": "src/orthopaedic-conditions/spine/Disc Prolapse.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -1716,7 +1716,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "spine",
       "slug": "fractures",
-      "imagePath": "src/orthopaedic conditions/spine/Fractures.jpg",
+      "imagePath": "src/orthopaedic-conditions/spine/Fractures.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -1773,7 +1773,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "spine",
       "slug": "spondylolisthesis",
-      "imagePath": "src/orthopaedic conditions/spine/Spondylolisthesis.jpg",
+      "imagePath": "src/orthopaedic-conditions/spine/Spondylolisthesis.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
@@ -1830,7 +1830,7 @@
       "category": "Orthopaedic Conditions",
       "bodyPart": "spine",
       "slug": "vertebroplasty",
-      "imagePath": "src/orthopaedic conditions/spine/vertebroplasty.jpg",
+      "imagePath": "src/orthopaedic-conditions/spine/vertebroplasty.jpg",
       "description": "Avascular Necrosis (AVN)\u2014also known as Osteonecrosis\u2014is a progressive condition in which bone tissue dies due to a lack of blood supply. As AVN advances, it severely limits mobility and may lead to the collapse of the affected joint. AVN most commonly affects the hip joint in young adults aged 20 to 45, though it can also impact the knee, shoulder, ankle, and other joints.",
       "symptoms": [
         "Persistent pain, swelling, and stiffness in the affected joint",
