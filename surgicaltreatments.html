@@ -413,21 +413,33 @@
         transform: translateY(-1px);
       }
 
-      /* Quick links card — now half width */
+      /* Quick links card — matched to cta-card style */
       .quick-card {
-        background: var(--white);
+        background: var(--primary);
         border-radius: 18px;
-        border: 1px solid var(--border);
-        box-shadow: var(--shadow-sm);
-        padding: 28px 28px 24px;
+        padding: 28px 28px;
+        position: relative;
+        overflow: hidden;
+      }
+      .quick-card::before {
+        content: "";
+        position: absolute;
+        bottom: -40px;
+        right: -40px;
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        border: 30px solid rgba(0, 126, 254, 0.2);
       }
       .quick-card-title {
-        font-size: 13px;
+        font-family: sans-serif;
+        font-size: 18px;
         font-weight: 600;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        color: var(--text-muted);
+        color: #fff;
         margin-bottom: 16px;
+        line-height: 1.25;
+        position: relative;
+        z-index: 1;
       }
 
       /* Two-column grid for the quick links list */
@@ -435,29 +447,31 @@
         list-style: none;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 24px;
+        gap: 16px;
+        position: relative;
+        z-index: 1;
       }
-      .quick-links li a {
+      .quick-links li span {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 10px 12px;
         border-radius: 10px;
         font-size: 14px;
-        color: var(--text-mid);
-        text-decoration: none;
+        color: rgba(255, 255, 255, 0.85);
+        background: rgba(0, 126, 254, 0.15);
         transition: all 0.16s;
       }
-      .quick-links li a:hover {
-        background: var(--bg);
-        color: var(--primary);
+      .quick-links li span:hover {
+        background: rgba(0, 126, 254, 0.3);
+        color: #fff;
       }
-      .quick-links li a i {
+      .quick-links li span i {
         font-size: 11px;
-        color: var(--text-muted);
+        color: #74b9ff;
       }
-      .quick-links li a:hover i {
-        color: var(--secondary);
+      .quick-links li span:hover i {
+        color: #fff;
       }
 
       /* ── RESPONSIVE ── */
@@ -596,34 +610,22 @@
             <div class="quick-card-title">Explore Treatments</div>
             <ul class="quick-links">
               <li>
-                <a href="#"
-                  >🦵 Knee Replacement <i class="fas fa-chevron-right"></i
-                ></a>
+                <span>🦵 Knee Replacement <i class="fas fa-chevron-right"></i></span>
               </li>
               <li>
-                <a href="#"
-                  >🦴 Hip Replacement <i class="fas fa-chevron-right"></i
-                ></a>
+                <span>🦴 Hip Replacement <i class="fas fa-chevron-right"></i></span>
               </li>
               <li>
-                <a href="#"
-                  >🤖 Robotic Surgery <i class="fas fa-chevron-right"></i
-                ></a>
+                <span>🤖 Robotic Surgery <i class="fas fa-chevron-right"></i></span>
               </li>
               <li>
-                <a href="#"
-                  >🏃 Sports Injuries <i class="fas fa-chevron-right"></i
-                ></a>
+                <span>🏃 Sports Injuries <i class="fas fa-chevron-right"></i></span>
               </li>
               <li>
-                <a href="#"
-                  >🧠 Spine Care <i class="fas fa-chevron-right"></i
-                ></a>
+                <span>🧠 Spine Care <i class="fas fa-chevron-right"></i></span>
               </li>
               <li>
-                <a href="#"
-                  >💪 Shoulder injuries<i class="fas fa-chevron-right"></i
-                ></a>
+                <span>💪 Shoulder injuries<i class="fas fa-chevron-right"></i></span>
               </li>
             </ul>
           </div>
