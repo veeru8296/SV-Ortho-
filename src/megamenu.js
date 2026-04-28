@@ -331,6 +331,11 @@
 
         if (closeBtn) closeBtn.addEventListener('click', closeDetail);
 
+        // Show first step by default
+        if (page.procedure.length > 0) {
+          showDetail(0);
+        }
+
       } else {
         // Flat string steps
         procList.innerHTML = page.procedure.map((step, i) =>
