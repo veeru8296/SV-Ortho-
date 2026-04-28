@@ -1,0 +1,11 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/page"
+  to = "/page.html"
+  status = 200
+  force = true
+
+[build.processing]
+  skip_processing = true
